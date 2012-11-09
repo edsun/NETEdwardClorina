@@ -145,6 +145,8 @@ Public Class frmCarWash
                         'Place the current line into the dynamic array
                         mdecPrices(intIndex) = decPrice
                     Loop
+
+                    srFileReader.Close()
             End Select
         Catch ex As Exception
             MessageBox.Show(ex.Message)
