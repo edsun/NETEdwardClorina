@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="333b45dd-d10a-4909-801e-73684bdf608d" name="eclorina@ITSM1033954 2012-11-09 10:06:32" runUser="ACADEMIC\eclorina" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6f5894d-bf36-4e2e-b51c-eaefe52a5be0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="eclorina_ITSM1033954 2012-11-09 10_06_32">
+      <DeploymentItem filename="C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\bin\Debug\NETEdwardClorina.exe" />
+      <DeploymentItem filename="C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\BusinessTier\bin\Debug\BusinessTier.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-09T10:06:32.7665520-06:00" queuing="2012-11-09T10:06:32.8125566-06:00" start="2012-11-09T10:06:32.8335587-06:00" finish="2012-11-09T10:06:33.1075861-06:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ITSM1033954" outcome="Warning" timestamp="2012-11-09T10:06:32.8125566-06:00">
+        <Text>Deployment is currently disabled. The deployment item 'NETEdwardClorina.exe' on test 'EdwardClorinaTest.frmCarWashTest.cbo_SelectedIndexChangedTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="cbo_SelectedIndexChangedTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="c87020ce-f939-380f-ce63-25cc8b864c50">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="4b2d7ccc-16e8-48ff-90f3-5495f1051ce2" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmCarWashTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cbo_SelectedIndexChangedTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c87020ce-f939-380f-ce63-25cc8b864c50" executionId="4b2d7ccc-16e8-48ff-90f3-5495f1051ce2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4b2d7ccc-16e8-48ff-90f3-5495f1051ce2" testId="c87020ce-f939-380f-ce63-25cc8b864c50" testName="cbo_SelectedIndexChangedTest" computerName="ITSM1033954" duration="00:00:00.0454052" startTime="2012-11-09T10:06:32.8475601-06:00" endTime="2012-11-09T10:06:33.0895843-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b2d7ccc-16e8-48ff-90f3-5495f1051ce2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

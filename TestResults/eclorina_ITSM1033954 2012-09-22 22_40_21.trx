@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0b793486-2207-46e1-8f3f-146cf9c88fc1" name="eclorina@ITSM1033954 2012-09-22 22:40:21" runUser="ACADEMIC\eclorina" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6f5894d-bf36-4e2e-b51c-eaefe52a5be0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="eclorina_ITSM1033954 2012-09-22 22_40_21">
+      <DeploymentItem filename="C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\bin\Debug\NETEdwardClorina.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-22T22:40:21.5725208-05:00" queuing="2012-09-22T22:40:21.6005224-05:00" start="2012-09-22T22:40:21.6115230-05:00" finish="2012-09-22T22:40:21.9075399-05:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ITSM1033954" outcome="Warning" timestamp="2012-09-22T22:40:21.5995223-05:00">
+        <Text>Deployment is currently disabled. The deployment item 'NETEdwardClorina.exe' on test 'EdwardClorinaTest.frmEstimateTest.btnCalculate_HigherTradeInTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="btnCalculate_HigherTradeInTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="5565d732-dad7-4a06-da1f-b46e76896158">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="3be2c19e-2413-4c01-a63f-360358bb52ea" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnCalculate_HigherTradeInTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5565d732-dad7-4a06-da1f-b46e76896158" executionId="3be2c19e-2413-4c01-a63f-360358bb52ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3be2c19e-2413-4c01-a63f-360358bb52ea" testId="5565d732-dad7-4a06-da1f-b46e76896158" testName="btnCalculate_HigherTradeInTest" computerName="ITSM1033954" duration="00:00:00.0465524" startTime="2012-09-22T22:40:21.6205235-05:00" endTime="2012-09-22T22:40:21.8485366-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3be2c19e-2413-4c01-a63f-360358bb52ea">
+    </UnitTestResult>
+  </Results>
+</TestRun>

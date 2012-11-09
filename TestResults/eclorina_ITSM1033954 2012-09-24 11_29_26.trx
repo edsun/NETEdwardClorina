@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="022525d8-c757-435f-a8f2-082e83f52ff1" name="eclorina@ITSM1033954 2012-09-24 11:29:26" runUser="ACADEMIC\eclorina" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6f5894d-bf36-4e2e-b51c-eaefe52a5be0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="eclorina_ITSM1033954 2012-09-24 11_29_26">
+      <DeploymentItem filename="C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\bin\Debug\NETEdwardClorina.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-24T11:29:26.7122957-05:00" queuing="2012-09-24T11:29:26.7362981-05:00" start="2012-09-24T11:29:26.7643009-05:00" finish="2012-09-24T11:29:27.8524097-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="24" executed="24" passed="13" error="0" failed="11" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ITSM1033954" outcome="Warning" timestamp="2012-09-24T11:29:26.7362981-05:00">
+        <Text>Deployment is currently disabled. The deployment item 'NETEdwardClorina.exe' on test 'EdwardClorinaTest.frmEstimateTest.btnCalculate_NoTradeInTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="btnCalculate_NoTradeInTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="13f17089-26b6-adac-d056-369110824fa8">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="7cb8f46d-3c28-46dd-a08f-a135789d4387" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnCalculate_NoTradeInTest" />
+    </UnitTest>
+    <UnitTest name="txtChangedOrLeaveSalePrice_NonNumericTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="f044e7ce-e9b7-f039-4105-5cd881f28baa">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="47328255-8dac-40d6-8921-2b90be123fac" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtChangedOrLeaveSalePrice_NonNumericTest" />
+    </UnitTest>
+    <UnitTest name="txtSelectAllCustomerName_EnterTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="aa3baa45-ea4a-aae1-2cb7-8c1a5b6fbbcf">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="36777d6c-4490-4ad0-a109-b101d607d693" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtSelectAllCustomerName_EnterTest" />
+    </UnitTest>
+    <UnitTest name="chkChangedLeatherCompNav_CheckedChangedTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="3a4e6860-488c-74df-4062-971e5320d6a6">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="5a3c41d8-6148-4f2a-abeb-9f23db91e26c" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedLeatherCompNav_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="radChangedCustomDetail_CheckedChangedTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="9222fecf-4f1e-8c35-74ae-f7b601608fd1">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="d3385703-ccd8-47b3-94d8-f4d6364f3c7a" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="radChangedCustomDetail_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="txtSelectAllTradeIn_EnterTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="f5e539bb-191e-2c18-e7c9-abe35728d6a4">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="d57298d6-9fe7-413f-a937-925ac2b91576" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtSelectAllTradeIn_EnterTest" />
+    </UnitTest>
+    <UnitTest name="chkChangedNone_CheckedChangedTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="617cfebc-4eb5-27fe-13e8-77be2a6a1d90">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="45cfda5c-775c-4e47-a2aa-7af6845570fb" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedNone_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="chkChangedAll_CheckedChangedTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="a2ae5d1a-bef5-cd1a-fd2f-d198f86dae11">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="cb578310-d5bb-47f3-a059-beaaac70ee1b" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedAll_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="chkChangedStereo_CheckedChangedTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="70d6e0ce-7904-51f5-973e-2b44a102aeb7">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="856bd858-7752-459b-afe4-c2b8d91677a4" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedStereo_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="chkChangedStereoCompNav_CheckedChangedTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="2f816674-c6d9-d0be-6071-220f254803ac">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="c001b35d-30ca-4b1f-b9f0-b24e6b72fb62" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedStereoCompNav_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="txtSelectAllSalePrice_EnterTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="aec8b30e-86a2-1110-317c-162519fee187">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="7e24a289-59f8-47b0-bca6-aa28e423e713" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtSelectAllSalePrice_EnterTest" />
+    </UnitTest>
+    <UnitTest name="btnCalculate_AllTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="1c39960a-2e3b-95aa-d587-38a5239ff5b5">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="d8ab6b56-0fd7-4113-b55c-0cfaee291abf" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnCalculate_AllTest" />
+    </UnitTest>
+    <UnitTest name="txtChangedOrLeave_NumericTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="fb655678-719d-c498-3c6f-d378ca9161c3">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="a016dede-6101-47fc-94a0-0109555b6e10" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtChangedOrLeave_NumericTest" />
+    </UnitTest>
+    <UnitTest name="btnCalculate_HigherTradeInTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="5565d732-dad7-4a06-da1f-b46e76896158">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="d8259cc7-dea2-4708-9cef-6edcd0cb14c5" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnCalculate_HigherTradeInTest" />
+    </UnitTest>
+    <UnitTest name="chkChangedCompNav_CheckedChangedTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="a6211a8f-d89b-fdcf-9a15-1658106b675d">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="e93876f3-dc25-422c-b324-9ff687962d18" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedCompNav_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="chkChangedStereoLeather_CheckedChangedTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="d22b8720-2396-59f9-5495-600f2fe852ef">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="5f6fa25a-8c13-4bcd-a812-161821d814ce" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedStereoLeather_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="btnCalculate_MultipleTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="6ca4807f-540d-c6a8-7b1c-625d17427524">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="15d3d3b8-98ff-4568-aa29-60c41155e440" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnCalculate_MultipleTest" />
+    </UnitTest>
+    <UnitTest name="radChangedStandard_CheckedChangedTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="45a8c117-d6a9-1d87-84b9-04e419370e4a">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="3bdf0319-26f6-446c-9d9c-b1e080691268" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="radChangedStandard_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="chkChangedLeather_CheckedChangedTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="651ee12c-eead-caed-365a-cef57fe49640">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="803957cd-9bcc-48ad-b08a-771d32907796" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedLeather_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="btnCalculate_NoAccessoriesTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="69d8cdff-358e-e0a2-86a1-f09ba854ef17">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="8e7b32dc-2b15-4461-9e41-825654f64308" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnCalculate_NoAccessoriesTest" />
+    </UnitTest>
+    <UnitTest name="radChangedPearlized_CheckedChangedTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="93e7a9d2-7f5d-6f59-bcd8-4a5a6ea7b55a">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="e6253b8c-3f0d-4755-b889-bc089572670c" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="radChangedPearlized_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="txtChangedOrLeave_NumericEmptyTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="ab334e8e-f28f-213a-6463-fae243bae4e6">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="6bd179de-506e-453e-9ad1-04d0491f3410" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtChangedOrLeave_NumericEmptyTest" />
+    </UnitTest>
+    <UnitTest name="txtChangedOrLeaveTradeIn_NonNumericTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="b8e8abfa-5cbf-81ad-8c99-afde5d754357">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="a8fbc036-8f76-484c-9362-7798c5d7d99e" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtChangedOrLeaveTradeIn_NonNumericTest" />
+    </UnitTest>
+    <UnitTest name="btnClear_ClickTest" storage="c:\users\eclorina\documents\classes\term 3\programming (.net 1)\projects\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="ec7265e3-81b1-17df-a549-5c473eaebdd5">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="73cdb35d-9c36-4cdd-8482-616abe476ead" />
+      <TestMethod codeBase="C:/Users/eclorina/Documents/Classes/Term 3/Programming (.NET 1)/projects/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnClear_ClickTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="13f17089-26b6-adac-d056-369110824fa8" executionId="7cb8f46d-3c28-46dd-a08f-a135789d4387" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c39960a-2e3b-95aa-d587-38a5239ff5b5" executionId="d8ab6b56-0fd7-4113-b55c-0cfaee291abf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f816674-c6d9-d0be-6071-220f254803ac" executionId="c001b35d-30ca-4b1f-b9f0-b24e6b72fb62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a4e6860-488c-74df-4062-971e5320d6a6" executionId="5a3c41d8-6148-4f2a-abeb-9f23db91e26c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45a8c117-d6a9-1d87-84b9-04e419370e4a" executionId="3bdf0319-26f6-446c-9d9c-b1e080691268" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5565d732-dad7-4a06-da1f-b46e76896158" executionId="d8259cc7-dea2-4708-9cef-6edcd0cb14c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="617cfebc-4eb5-27fe-13e8-77be2a6a1d90" executionId="45cfda5c-775c-4e47-a2aa-7af6845570fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="651ee12c-eead-caed-365a-cef57fe49640" executionId="803957cd-9bcc-48ad-b08a-771d32907796" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69d8cdff-358e-e0a2-86a1-f09ba854ef17" executionId="8e7b32dc-2b15-4461-9e41-825654f64308" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ca4807f-540d-c6a8-7b1c-625d17427524" executionId="15d3d3b8-98ff-4568-aa29-60c41155e440" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70d6e0ce-7904-51f5-973e-2b44a102aeb7" executionId="856bd858-7752-459b-afe4-c2b8d91677a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9222fecf-4f1e-8c35-74ae-f7b601608fd1" executionId="d3385703-ccd8-47b3-94d8-f4d6364f3c7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93e7a9d2-7f5d-6f59-bcd8-4a5a6ea7b55a" executionId="e6253b8c-3f0d-4755-b889-bc089572670c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2ae5d1a-bef5-cd1a-fd2f-d198f86dae11" executionId="cb578310-d5bb-47f3-a059-beaaac70ee1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6211a8f-d89b-fdcf-9a15-1658106b675d" executionId="e93876f3-dc25-422c-b324-9ff687962d18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa3baa45-ea4a-aae1-2cb7-8c1a5b6fbbcf" executionId="36777d6c-4490-4ad0-a109-b101d607d693" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab334e8e-f28f-213a-6463-fae243bae4e6" executionId="6bd179de-506e-453e-9ad1-04d0491f3410" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aec8b30e-86a2-1110-317c-162519fee187" executionId="7e24a289-59f8-47b0-bca6-aa28e423e713" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8e8abfa-5cbf-81ad-8c99-afde5d754357" executionId="a8fbc036-8f76-484c-9362-7798c5d7d99e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d22b8720-2396-59f9-5495-600f2fe852ef" executionId="5f6fa25a-8c13-4bcd-a812-161821d814ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec7265e3-81b1-17df-a549-5c473eaebdd5" executionId="73cdb35d-9c36-4cdd-8482-616abe476ead" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f044e7ce-e9b7-f039-4105-5cd881f28baa" executionId="47328255-8dac-40d6-8921-2b90be123fac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5e539bb-191e-2c18-e7c9-abe35728d6a4" executionId="d57298d6-9fe7-413f-a937-925ac2b91576" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb655678-719d-c498-3c6f-d378ca9161c3" executionId="a016dede-6101-47fc-94a0-0109555b6e10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7cb8f46d-3c28-46dd-a08f-a135789d4387" testId="13f17089-26b6-adac-d056-369110824fa8" testName="btnCalculate_NoTradeInTest" computerName="ITSM1033954" duration="00:00:00.0394963" startTime="2012-09-24T11:29:26.7673012-05:00" endTime="2012-09-24T11:29:26.9913236-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7cb8f46d-3c28-46dd-a08f-a135789d4387">
+    </UnitTestResult>
+    <UnitTestResult executionId="d8ab6b56-0fd7-4113-b55c-0cfaee291abf" testId="1c39960a-2e3b-95aa-d587-38a5239ff5b5" testName="btnCalculate_AllTest" computerName="ITSM1033954" duration="00:00:00.0029865" startTime="2012-09-24T11:29:26.9923237-05:00" endTime="2012-09-24T11:29:27.0023247-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8ab6b56-0fd7-4113-b55c-0cfaee291abf">
+    </UnitTestResult>
+    <UnitTestResult executionId="c001b35d-30ca-4b1f-b9f0-b24e6b72fb62" testId="2f816674-c6d9-d0be-6071-220f254803ac" testName="chkChangedStereoCompNav_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0267067" startTime="2012-09-24T11:29:27.0033248-05:00" endTime="2012-09-24T11:29:27.0363281-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c001b35d-30ca-4b1f-b9f0-b24e6b72fb62">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EdwardClorinaTest.frmEstimateTest.chkChangedStereoCompNav_CheckedChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at NETEdwardClorina.frmEstimate_Accessor.chkChanged_CheckedChanged(Object sender, EventArgs e)
+   at EdwardClorinaTest.frmEstimateTest.chkChangedStereoCompNav_CheckedChangedTest() in C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\EdwardClorinaTest\frmEstimateTest.vb:line 301
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5a3c41d8-6148-4f2a-abeb-9f23db91e26c" testId="3a4e6860-488c-74df-4062-971e5320d6a6" testName="chkChangedLeatherCompNav_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0075317" startTime="2012-09-24T11:29:27.0373282-05:00" endTime="2012-09-24T11:29:27.0513296-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a3c41d8-6148-4f2a-abeb-9f23db91e26c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EdwardClorinaTest.frmEstimateTest.chkChangedLeatherCompNav_CheckedChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at NETEdwardClorina.frmEstimate_Accessor.chkChanged_CheckedChanged(Object sender, EventArgs e)
+   at EdwardClorinaTest.frmEstimateTest.chkChangedLeatherCompNav_CheckedChangedTest() in C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\EdwardClorinaTest\frmEstimateTest.vb:line 327
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3bdf0319-26f6-446c-9d9c-b1e080691268" testId="45a8c117-d6a9-1d87-84b9-04e419370e4a" testName="radChangedStandard_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0080877" startTime="2012-09-24T11:29:27.0533298-05:00" endTime="2012-09-24T11:29:27.0673312-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bdf0319-26f6-446c-9d9c-b1e080691268">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EdwardClorinaTest.frmEstimateTest.radChangedStandard_CheckedChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at NETEdwardClorina.frmEstimate_Accessor.radChanged_CheckedChanged(Object sender, EventArgs e)
+   at EdwardClorinaTest.frmEstimateTest.radChangedStandard_CheckedChangedTest() in C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\EdwardClorinaTest\frmEstimateTest.vb:line 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d8259cc7-dea2-4708-9cef-6edcd0cb14c5" testId="5565d732-dad7-4a06-da1f-b46e76896158" testName="btnCalculate_HigherTradeInTest" computerName="ITSM1033954" duration="00:00:00.0026612" startTime="2012-09-24T11:29:27.0693314-05:00" endTime="2012-09-24T11:29:27.0773322-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8259cc7-dea2-4708-9cef-6edcd0cb14c5">
+    </UnitTestResult>
+    <UnitTestResult executionId="45cfda5c-775c-4e47-a2aa-7af6845570fb" testId="617cfebc-4eb5-27fe-13e8-77be2a6a1d90" testName="chkChangedNone_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0055893" startTime="2012-09-24T11:29:27.0793324-05:00" endTime="2012-09-24T11:29:27.0913336-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45cfda5c-775c-4e47-a2aa-7af6845570fb">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EdwardClorinaTest.frmEstimateTest.chkChangedNone_CheckedChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at NETEdwardClorina.frmEstimate_Accessor.chkChanged_CheckedChanged(Object sender, EventArgs e)
+   at EdwardClorinaTest.frmEstimateTest.chkChangedNone_CheckedChangedTest() in C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\EdwardClorinaTest\frmEstimateTest.vb:line 149
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="803957cd-9bcc-48ad-b08a-771d32907796" testId="651ee12c-eead-caed-365a-cef57fe49640" testName="chkChangedLeather_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0056469" startTime="2012-09-24T11:29:27.0943339-05:00" endTime="2012-09-24T11:29:27.1063351-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="803957cd-9bcc-48ad-b08a-771d32907796">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EdwardClorinaTest.frmEstimateTest.chkChangedLeather_CheckedChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at NETEdwardClorina.frmEstimate_Accessor.chkChanged_CheckedChanged(Object sender, EventArgs e)
+   at EdwardClorinaTest.frmEstimateTest.chkChangedLeather_CheckedChangedTest() in C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\EdwardClorinaTest\frmEstimateTest.vb:line 197
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8e7b32dc-2b15-4461-9e41-825654f64308" testId="69d8cdff-358e-e0a2-86a1-f09ba854ef17" testName="btnCalculate_NoAccessoriesTest" computerName="ITSM1033954" duration="00:00:00.0027411" startTime="2012-09-24T11:29:27.1083353-05:00" endTime="2012-09-24T11:29:27.1163361-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e7b32dc-2b15-4461-9e41-825654f64308">
+    </UnitTestResult>
+    <UnitTestResult executionId="15d3d3b8-98ff-4568-aa29-60c41155e440" testId="6ca4807f-540d-c6a8-7b1c-625d17427524" testName="btnCalculate_MultipleTest" computerName="ITSM1033954" duration="00:00:00.0026902" startTime="2012-09-24T11:29:27.1183363-05:00" endTime="2012-09-24T11:29:27.1273372-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15d3d3b8-98ff-4568-aa29-60c41155e440">
+    </UnitTestResult>
+    <UnitTestResult executionId="856bd858-7752-459b-afe4-c2b8d91677a4" testId="70d6e0ce-7904-51f5-973e-2b44a102aeb7" testName="chkChangedStereo_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0050886" startTime="2012-09-24T11:29:27.1293374-05:00" endTime="2012-09-24T11:29:27.1403385-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="856bd858-7752-459b-afe4-c2b8d91677a4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EdwardClorinaTest.frmEstimateTest.chkChangedStereo_CheckedChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at NETEdwardClorina.frmEstimate_Accessor.chkChanged_CheckedChanged(Object sender, EventArgs e)
+   at EdwardClorinaTest.frmEstimateTest.chkChangedStereo_CheckedChangedTest() in C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\EdwardClorinaTest\frmEstimateTest.vb:line 172
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d3385703-ccd8-47b3-94d8-f4d6364f3c7a" testId="9222fecf-4f1e-8c35-74ae-f7b601608fd1" testName="radChangedCustomDetail_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0055911" startTime="2012-09-24T11:29:27.1423387-05:00" endTime="2012-09-24T11:29:27.1543399-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3385703-ccd8-47b3-94d8-f4d6364f3c7a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EdwardClorinaTest.frmEstimateTest.radChangedCustomDetail_CheckedChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at NETEdwardClorina.frmEstimate_Accessor.radChanged_CheckedChanged(Object sender, EventArgs e)
+   at EdwardClorinaTest.frmEstimateTest.radChangedCustomDetail_CheckedChangedTest() in C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\EdwardClorinaTest\frmEstimateTest.vb:line 126
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e6253b8c-3f0d-4755-b889-bc089572670c" testId="93e7a9d2-7f5d-6f59-bcd8-4a5a6ea7b55a" testName="radChangedPearlized_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0052671" startTime="2012-09-24T11:29:27.1553400-05:00" endTime="2012-09-24T11:29:27.1663411-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6253b8c-3f0d-4755-b889-bc089572670c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EdwardClorinaTest.frmEstimateTest.radChangedPearlized_CheckedChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at NETEdwardClorina.frmEstimate_Accessor.radChanged_CheckedChanged(Object sender, EventArgs e)
+   at EdwardClorinaTest.frmEstimateTest.radChangedPearlized_CheckedChangedTest() in C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\EdwardClorinaTest\frmEstimateTest.vb:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cb578310-d5bb-47f3-a059-beaaac70ee1b" testId="a2ae5d1a-bef5-cd1a-fd2f-d198f86dae11" testName="chkChangedAll_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0059271" startTime="2012-09-24T11:29:27.1683413-05:00" endTime="2012-09-24T11:29:27.1813426-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb578310-d5bb-47f3-a059-beaaac70ee1b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EdwardClorinaTest.frmEstimateTest.chkChangedAll_CheckedChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at NETEdwardClorina.frmEstimate_Accessor.chkChanged_CheckedChanged(Object sender, EventArgs e)
+   at EdwardClorinaTest.frmEstimateTest.chkChangedAll_CheckedChangedTest() in C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\EdwardClorinaTest\frmEstimateTest.vb:line 249
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e93876f3-dc25-422c-b324-9ff687962d18" testId="a6211a8f-d89b-fdcf-9a15-1658106b675d" testName="chkChangedCompNav_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0071979" startTime="2012-09-24T11:29:27.1863431-05:00" endTime="2012-09-24T11:29:27.2003445-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e93876f3-dc25-422c-b324-9ff687962d18">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EdwardClorinaTest.frmEstimateTest.chkChangedCompNav_CheckedChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at NETEdwardClorina.frmEstimate_Accessor.chkChanged_CheckedChanged(Object sender, EventArgs e)
+   at EdwardClorinaTest.frmEstimateTest.chkChangedCompNav_CheckedChangedTest() in C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\EdwardClorinaTest\frmEstimateTest.vb:line 222
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="36777d6c-4490-4ad0-a109-b101d607d693" testId="aa3baa45-ea4a-aae1-2cb7-8c1a5b6fbbcf" testName="txtSelectAllCustomerName_EnterTest" computerName="ITSM1033954" duration="00:00:00.0053693" startTime="2012-09-24T11:29:27.2023447-05:00" endTime="2012-09-24T11:29:27.2143459-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36777d6c-4490-4ad0-a109-b101d607d693">
+    </UnitTestResult>
+    <UnitTestResult executionId="6bd179de-506e-453e-9ad1-04d0491f3410" testId="ab334e8e-f28f-213a-6463-fae243bae4e6" testName="txtChangedOrLeave_NumericEmptyTest" computerName="ITSM1033954" duration="00:00:00.0045005" startTime="2012-09-24T11:29:27.2173462-05:00" endTime="2012-09-24T11:29:27.2293474-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bd179de-506e-453e-9ad1-04d0491f3410">
+    </UnitTestResult>
+    <UnitTestResult executionId="7e24a289-59f8-47b0-bca6-aa28e423e713" testId="aec8b30e-86a2-1110-317c-162519fee187" testName="txtSelectAllSalePrice_EnterTest" computerName="ITSM1033954" duration="00:00:00.0025064" startTime="2012-09-24T11:29:27.2303475-05:00" endTime="2012-09-24T11:29:27.2383483-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e24a289-59f8-47b0-bca6-aa28e423e713">
+    </UnitTestResult>
+    <UnitTestResult executionId="a8fbc036-8f76-484c-9362-7798c5d7d99e" testId="b8e8abfa-5cbf-81ad-8c99-afde5d754357" testName="txtChangedOrLeaveTradeIn_NonNumericTest" computerName="ITSM1033954" duration="00:00:00.0026759" startTime="2012-09-24T11:29:27.2383483-05:00" endTime="2012-09-24T11:29:27.2463491-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8fbc036-8f76-484c-9362-7798c5d7d99e">
+    </UnitTestResult>
+    <UnitTestResult executionId="5f6fa25a-8c13-4bcd-a812-161821d814ce" testId="d22b8720-2396-59f9-5495-600f2fe852ef" testName="chkChangedStereoLeather_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0073496" startTime="2012-09-24T11:29:27.2473492-05:00" endTime="2012-09-24T11:29:27.2603505-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f6fa25a-8c13-4bcd-a812-161821d814ce">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EdwardClorinaTest.frmEstimateTest.chkChangedStereoLeather_CheckedChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at NETEdwardClorina.frmEstimate_Accessor.chkChanged_CheckedChanged(Object sender, EventArgs e)
+   at EdwardClorinaTest.frmEstimateTest.chkChangedStereoLeather_CheckedChangedTest() in C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\EdwardClorinaTest\frmEstimateTest.vb:line 275
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="73cdb35d-9c36-4cdd-8482-616abe476ead" testId="ec7265e3-81b1-17df-a549-5c473eaebdd5" testName="btnClear_ClickTest" computerName="ITSM1033954" duration="00:00:00.0064701" startTime="2012-09-24T11:29:27.2623507-05:00" endTime="2012-09-24T11:29:27.2743519-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73cdb35d-9c36-4cdd-8482-616abe476ead">
+    </UnitTestResult>
+    <UnitTestResult executionId="47328255-8dac-40d6-8921-2b90be123fac" testId="f044e7ce-e9b7-f039-4105-5cd881f28baa" testName="txtChangedOrLeaveSalePrice_NonNumericTest" computerName="ITSM1033954" duration="00:00:00.0040958" startTime="2012-09-24T11:29:27.2763521-05:00" endTime="2012-09-24T11:29:27.2893534-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47328255-8dac-40d6-8921-2b90be123fac">
+    </UnitTestResult>
+    <UnitTestResult executionId="d57298d6-9fe7-413f-a937-925ac2b91576" testId="f5e539bb-191e-2c18-e7c9-abe35728d6a4" testName="txtSelectAllTradeIn_EnterTest" computerName="ITSM1033954" duration="00:00:00.0029379" startTime="2012-09-24T11:29:27.2913536-05:00" endTime="2012-09-24T11:29:27.3013546-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d57298d6-9fe7-413f-a937-925ac2b91576">
+    </UnitTestResult>
+    <UnitTestResult executionId="a016dede-6101-47fc-94a0-0109555b6e10" testId="fb655678-719d-c498-3c6f-d378ca9161c3" testName="txtChangedOrLeave_NumericTest" computerName="ITSM1033954" duration="00:00:00.0037192" startTime="2012-09-24T11:29:27.3033548-05:00" endTime="2012-09-24T11:29:27.3153560-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a016dede-6101-47fc-94a0-0109555b6e10">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f42630d2-e7a8-4778-bcc8-e327bd568f8f" name="eclorina@ITSM1033954 2012-11-09 10:06:56" runUser="ACADEMIC\eclorina" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6f5894d-bf36-4e2e-b51c-eaefe52a5be0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="eclorina_ITSM1033954 2012-11-09 10_06_56">
+      <DeploymentItem filename="C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\bin\Debug\NETEdwardClorina.exe" />
+      <DeploymentItem filename="C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\BusinessTier\bin\Debug\BusinessTier.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-09T10:06:56.5839335-06:00" queuing="2012-11-09T10:06:56.6419393-06:00" start="2012-11-09T10:06:56.6799431-06:00" finish="2012-11-09T10:07:00.0772828-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="73" executed="73" passed="71" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ITSM1033954" outcome="Warning" timestamp="2012-11-09T10:06:56.6409392-06:00">
+        <Text>Deployment is currently disabled. The deployment item 'NETEdwardClorina.exe' on test 'EdwardClorinaTest.frmEstimateTest.calculateTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="calculateTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="d3751965-96b3-454e-9878-5e9c8b111963">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="2aecc085-ca49-4b5c-ace6-9b795d0bd23e" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="calculateTest" />
+    </UnitTest>
+    <UnitTest name="quoteEnabledTrue_Test" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="9488ef8e-9ae3-80b4-8035-92743c3f0ce1">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="a7802973-0c0d-4ab2-aba5-c287bf347668" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="quoteEnabledTrue_Test" />
+    </UnitTest>
+    <UnitTest name="chkChangedStereoCompNav_CheckedChangedTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="2f816674-c6d9-d0be-6071-220f254803ac">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="d6b35bbc-c418-4e04-815d-aa2c541208b0" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedStereoCompNav_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="txtChangedOrLeaveSalePrice_NonNumericTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="f044e7ce-e9b7-f039-4105-5cd881f28baa">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="0f83ace6-4b90-4e4b-b733-a600856e9283" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtChangedOrLeaveSalePrice_NonNumericTest" />
+    </UnitTest>
+    <UnitTest name="mdecMaterialsTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="d78a36a3-2055-f2af-fc61-74bb739f5eff">
+      <Execution id="08314f8c-48cd-423c-8938-9c448b456637" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.clsServiceTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="mdecMaterialsTest" />
+    </UnitTest>
+    <UnitTest name="radChangedCustomDetail_CheckedChangedTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="9222fecf-4f1e-8c35-74ae-f7b601608fd1">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="9d4987c2-9a28-4daf-ba5a-936199ec7f09" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="radChangedCustomDetail_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="btnCalculate_MultipleTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="6ca4807f-540d-c6a8-7b1c-625d17427524">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="586d1d08-1b67-478d-b380-495719d8a739" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnCalculate_MultipleTest" />
+    </UnitTest>
+    <UnitTest name="btnCalculate_NoAccessoriesTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="69d8cdff-358e-e0a2-86a1-f09ba854ef17">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="4294b5f4-6968-4126-8f05-637dcfbcb707" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnCalculate_NoAccessoriesTest" />
+    </UnitTest>
+    <UnitTest name="radChangedStandard_CheckedChangedTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="45a8c117-d6a9-1d87-84b9-04e419370e4a">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="24fd56a0-7347-4772-a6a3-7d71cb63dfbb" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="radChangedStandard_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="btnClear_ClickTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="c7aca7a3-7564-3262-fa47-b2944e13b6f9">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="2cfe0a00-a1ec-4912-8806-a7c5500d86d6" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmCarWashTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnClear_ClickTest" />
+    </UnitTest>
+    <UnitTest name="readFiles_PkgPrices" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="b2df5790-1cff-f5de-c6e2-89b38d005091">
+      <Execution id="5b21d42e-202d-4612-a4ab-24562804478a" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmCarWashTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="readFiles_PkgPrices" />
+    </UnitTest>
+    <UnitTest name="ClearToolStripMenuItem_ClickTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="a57028c1-a1a2-8baf-bd97-ab588ce5c293">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="c8e4792d-96b0-4f00-8238-ba60aa76b3d1" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmServiceTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ClearToolStripMenuItem_ClickTest" />
+    </UnitTest>
+    <UnitTest name="txtChangedOrLeaveTradeIn_NonNumericTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="b8e8abfa-5cbf-81ad-8c99-afde5d754357">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="8ef30010-8213-47cb-a634-b3cb4c370983" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtChangedOrLeaveTradeIn_NonNumericTest" />
+    </UnitTest>
+    <UnitTest name="readFiles_Interior" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="2d782757-5b4c-948a-a178-65a1ee0cc3e9">
+      <Execution id="55935fce-dc05-4ecb-ae96-3cbb3ad2efec" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmCarWashTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="readFiles_Interior" />
+    </UnitTest>
+    <UnitTest name="clsChargesConstructor_Default" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="e9e57f24-0c94-4717-526b-b49ac8fb90fb">
+      <Execution id="eee5f5f2-bb46-42f5-bfeb-973e4f765925" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.clsChargesTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="clsChargesConstructor_Default" />
+    </UnitTest>
+    <UnitTest name="enableFinanceTest_TrueRate" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="434aa807-b360-efe8-7a04-8eeea42998f0">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="d349602e-cba0-442d-ac99-c5d717322bd4" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="enableFinanceTest_TrueRate" />
+    </UnitTest>
+    <UnitTest name="txtSelectAllCustomerName_EnterTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="aa3baa45-ea4a-aae1-2cb7-8c1a5b6fbbcf">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="3b855299-3fb4-4262-aaa5-4da1451ee0ca" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtSelectAllCustomerName_EnterTest" />
+    </UnitTest>
+    <UnitTest name="AcceptQuoteToolStripMenuItem_Test" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="6648b852-8b96-323d-69bc-7e6c3f8c5422">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="4e21354e-46d2-4969-b1b4-d344915040d1" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AcceptQuoteToolStripMenuItem_Test" />
+    </UnitTest>
+    <UnitTest name="calculateTest_rateMin" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="e8bb5cd8-bc3c-2c60-2e53-498c41282682">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="6ff1bb10-2f76-4439-a9ea-93a6f271bbd7" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="calculateTest_rateMin" />
+    </UnitTest>
+    <UnitTest name="clsServiceConstructorTest_Default" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="cecbe4a8-1371-9dfd-a066-49942a24f9a5">
+      <Execution id="293ab44a-f9ce-482c-8469-dca53abaf7b4" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.clsServiceTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="clsServiceConstructorTest_Default" />
+    </UnitTest>
+    <UnitTest name="enableFinanceTest_TrueBoolean" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="35e5c4cd-e54b-ee29-c2c0-12fb7a2dc4ae">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="c18492df-882d-4ee2-822e-bde82763787e" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="enableFinanceTest_TrueBoolean" />
+    </UnitTest>
+    <UnitTest name="getTotalTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="2dfc81b8-5411-4c94-fc15-f5c632ebbbf7">
+      <Execution id="f4d87fe6-4267-46c1-940a-67358e7d43bb" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.clsChargesTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getTotalTest" />
+    </UnitTest>
+    <UnitTest name="btnCalculate_AllTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="1c39960a-2e3b-95aa-d587-38a5239ff5b5">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="79d70026-e749-46a5-9f9d-9e7d79b93f96" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnCalculate_AllTest" />
+    </UnitTest>
+    <UnitTest name="mdecPriceTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="a29865ee-1c72-d54c-fb82-e612ddc8d093">
+      <Execution id="5f0365d0-85d1-4b89-a0cf-23faeebf3937" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.clsServiceTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="mdecPriceTest" />
+    </UnitTest>
+    <UnitTest name="quoteEnabledFalse_Test" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="d5280dcd-6a77-7c8a-8e6a-27b6b0335f02">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="c72caab0-75f0-4275-963a-239b6052e488" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="quoteEnabledFalse_Test" />
+    </UnitTest>
+    <UnitTest name="averageContractTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="38009d5c-e88a-4daf-c8c7-d948aca112fa">
+      <Execution id="35e4a414-3c01-4a44-89ac-ad2d91e56c68" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.clsServiceTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="averageContractTest" />
+    </UnitTest>
+    <UnitTest name="getFragIndexTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="872c648d-205b-0c6e-4042-5f17165e4c76">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="19dd4b3b-31d8-4932-b8e3-ffe6517ea64a" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmCarWashTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getFragIndexTest" />
+    </UnitTest>
+    <UnitTest name="readFiles_FragDesc" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="c15411e5-b4d0-273d-89d8-a36388864804">
+      <Execution id="de4c8e0f-1728-4595-8953-2a957b71e2b7" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmCarWashTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="readFiles_FragDesc" />
+    </UnitTest>
+    <UnitTest name="txtSelectAllTradeIn_EnterTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="f5e539bb-191e-2c18-e7c9-abe35728d6a4">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="c70e7976-9ff1-48dc-a35a-a9a364af9a4a" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtSelectAllTradeIn_EnterTest" />
+    </UnitTest>
+    <UnitTest name="chkChangedStereo_CheckedChangedTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="70d6e0ce-7904-51f5-973e-2b44a102aeb7">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="c72c941b-da20-4812-9b64-6c785ebd6c89" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedStereo_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="mdecPartsTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="3d6afc69-2574-416b-5051-4d0f0fa40b6a">
+      <Execution id="0c0128ea-b782-4ac2-b270-c21d182e4179" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.clsServiceTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="mdecPartsTest" />
+    </UnitTest>
+    <UnitTest name="txtChangedOrLeave_NumericTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="fb655678-719d-c498-3c6f-d378ca9161c3">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="2fe61575-06f8-41da-880b-1b6bcedca875" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtChangedOrLeave_NumericTest" />
+    </UnitTest>
+    <UnitTest name="cbo_SelectedIndexChangedTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="c87020ce-f939-380f-ce63-25cc8b864c50">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="3189876d-384b-4b2d-bcf9-9951b0870ca0" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmCarWashTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cbo_SelectedIndexChangedTest" />
+    </UnitTest>
+    <UnitTest name="calculateTest_rateMax" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="fa8c2ce7-c1b4-4f04-a1e9-f63fe05d2d18">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="ef043b77-10ed-4fd9-bb88-81cc7b4f88bb" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="calculateTest_rateMax" />
+    </UnitTest>
+    <UnitTest name="readFiles_Exterior" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="5b71a64d-9c2e-2947-fa57-e52621ef55a7">
+      <Execution id="92d31df1-497b-4013-94b5-5c0bc1d93413" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmCarWashTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="readFiles_Exterior" />
+    </UnitTest>
+    <UnitTest name="chkChangedStereoLeather_CheckedChangedTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="d22b8720-2396-59f9-5495-600f2fe852ef">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="23f5c61c-82e1-4344-bb52-7d1f45245cdf" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedStereoLeather_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="calculateTest_yearsMax" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="52dd2c69-511c-e3c3-9151-3221a6eb0905">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="18775e0f-0947-4ac2-8cbe-0e1eba62db83" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="calculateTest_yearsMax" />
+    </UnitTest>
+    <UnitTest name="frmSummary_LoadTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="3a87717b-e8ad-1537-8952-ef4932a90a36">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="7d4a376b-04fc-4812-81a9-f2efd4b5722e" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmSummaryTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="frmSummary_LoadTest" />
+    </UnitTest>
+    <UnitTest name="clsChargesConstructor_Parameterized" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="d7c710e5-cc08-ac5c-c802-8f1c80d3c021">
+      <Execution id="be4dc859-3790-49f8-b225-17270cdb65bc" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.clsChargesTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="clsChargesConstructor_Parameterized" />
+    </UnitTest>
+    <UnitTest name="CalculateToolStripMenuItem_ClickTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="65d01eaf-e5f5-5bef-c4ca-1a350486c257">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="5f55d0e0-d704-4ff9-8a71-288f75ba14b1" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmServiceTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateToolStripMenuItem_ClickTest" />
+    </UnitTest>
+    <UnitTest name="hsbYearsInterestRate_Years" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="f3995e10-0f0e-0072-ebba-5cc4aa6e8c6a">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="e52bc529-350b-4b26-a530-2c5e513d0d24" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="hsbYearsInterestRate_Years" />
+    </UnitTest>
+    <UnitTest name="frmCarWash_LoadTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="53d9f262-5d73-c3f9-e64f-5cef8eafce47">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="f697a296-39e3-4445-add9-e34120a6d9b7" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmCarWashTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="frmCarWash_LoadTest" />
+    </UnitTest>
+    <UnitTest name="chkChangedCompNav_CheckedChangedTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="a6211a8f-d89b-fdcf-9a15-1658106b675d">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="c4429222-d32d-41f1-84d7-8ca076608eb7" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedCompNav_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="enableFinanceTest_TrueYears" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="a8a322f5-7852-0d39-ef34-d922cd11f707">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="bbc0755f-85c4-49c6-bb3f-f3522d1fdbb4" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="enableFinanceTest_TrueYears" />
+    </UnitTest>
+    <UnitTest name="calculateTest_yearsMin" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="002a1621-eddc-ca64-2bf0-0344f5ea638f">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="64070452-f02c-4b5c-9841-de2b46204523" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="calculateTest_yearsMin" />
+    </UnitTest>
+    <UnitTest name="readFiles_FragPrices" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="4d87978f-e5f4-f1d2-b459-2f5287647e5a">
+      <Execution id="b10dfd92-f25f-450b-b126-906d315662c0" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmCarWashTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="readFiles_FragPrices" />
+    </UnitTest>
+    <UnitTest name="txtSelectAllSalePrice_EnterTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="aec8b30e-86a2-1110-317c-162519fee187">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="424de9b7-9164-49fd-94c5-2537065d435c" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtSelectAllSalePrice_EnterTest" />
+    </UnitTest>
+    <UnitTest name="calculateTest_noAmountDue" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="dbcb17e9-71e9-a092-ad4c-10c8eb1858d3">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="c815e32f-538f-47af-be47-994c371f09b5" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="calculateTest_noAmountDue" />
+    </UnitTest>
+    <UnitTest name="clearEnabledFalse_Test" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="c59c3d8e-53e2-98e1-00f9-0e1cb81123e2">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="98d1e391-872b-4a17-a747-01208631cf8b" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="clearEnabledFalse_Test" />
+    </UnitTest>
+    <UnitTest name="chkChangedLeatherCompNav_CheckedChangedTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="3a4e6860-488c-74df-4062-971e5320d6a6">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="dcd20ef5-4fd5-4629-b301-55dd82a2a7ed" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedLeatherCompNav_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="SummaryToolStripMenuItem_Test" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="3363da85-f5a5-fa49-9945-e59f6abd009f">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="63c698f1-b05c-4204-b183-97e4ed6a8a91" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SummaryToolStripMenuItem_Test" />
+    </UnitTest>
+    <UnitTest name="hsbYearsInterestRate_Rate" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="e4c7774b-a1bb-357f-84d5-37861d25edbf">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="4c7c1125-90e4-48b7-8238-3a534294094a" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="hsbYearsInterestRate_Rate" />
+    </UnitTest>
+    <UnitTest name="enableFinanceTest_False" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="4b548cbb-f070-3eab-57a1-27b52b5758f9">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="f3391f70-af8f-4205-bba9-1912053b8b8c" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="enableFinanceTest_False" />
+    </UnitTest>
+    <UnitTest name="calcAmountTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="533fc48b-da81-1b70-c6fd-b246ce3de668">
+      <Execution id="8dc3637f-e83a-47ef-aea7-e262cd2b66f2" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.clsServiceTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="calcAmountTest" />
+    </UnitTest>
+    <UnitTest name="btnCalculate_HigherTradeInTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="5565d732-dad7-4a06-da1f-b46e76896158">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="98450279-d142-4285-9d0a-f0db7b5fae95" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnCalculate_HigherTradeInTest" />
+    </UnitTest>
+    <UnitTest name="clearEnabledTrue_Test" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="9c124bcf-e619-5c77-498a-2ac79e8694f1">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="9ed24d89-dbcc-4814-aae3-2b0890a23523" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="clearEnabledTrue_Test" />
+    </UnitTest>
+    <UnitTest name="clsServiceConstructorTest_Parameterized" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="d80dad86-99ae-aa29-b46c-a4768048d274">
+      <Execution id="260ffffe-c756-4c00-9f06-2338ba757bda" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.clsServiceTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="clsServiceConstructorTest_Parameterized" />
+    </UnitTest>
+    <UnitTest name="textEnteredTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="102fe2c6-0f8a-4fe3-a03e-f2dcf1db55bf">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="e2ae1ca8-2aa9-4dc2-85f1-c71bd5278393" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmServiceTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="textEnteredTest" />
+    </UnitTest>
+    <UnitTest name="radChangedPearlized_CheckedChangedTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="93e7a9d2-7f5d-6f59-bcd8-4a5a6ea7b55a">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="4f4d5571-4bcd-4ad5-b9a1-b4fca3bcdb97" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="radChangedPearlized_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="chkChangedAll_CheckedChangedTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="a2ae5d1a-bef5-cd1a-fd2f-d198f86dae11">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="388c8505-48b9-47a9-9ccc-c235f7edf240" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedAll_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="textLeaveChangedTest_Numeric" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="5742311f-0f22-487a-e746-358c37201c0a">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="d7dcf835-6b53-4410-8b8f-80c082e69617" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmServiceTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="textLeaveChangedTest_Numeric" />
+    </UnitTest>
+    <UnitTest name="textLeaveChangedTest_NonNumeric" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="e7310224-640c-46ae-2e73-7ba3861176ac">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="adf90568-90c3-45f0-bb42-2b9aa3473bde" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmServiceTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="textLeaveChangedTest_NonNumeric" />
+    </UnitTest>
+    <UnitTest name="chkChangedLeather_CheckedChangedTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="651ee12c-eead-caed-365a-cef57fe49640">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="1fe3c0b8-ee02-4232-8409-b55a1f43f901" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedLeather_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="sendMessageTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="bef5b3c0-0dd2-395e-8ebe-1d117ff080bf">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="8369a021-605e-4afa-af59-f9295e94a660" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmBaseTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="sendMessageTest" />
+    </UnitTest>
+    <UnitTest name="chkChangedNone_CheckedChangedTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="617cfebc-4eb5-27fe-13e8-77be2a6a1d90">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="bda2dc80-8000-4df0-a604-dc6e04c57260" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chkChangedNone_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="calculateTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="6114b447-dad1-f584-bfff-97bcd4c5c7e8">
+      <Execution id="ca8a5789-30c1-4b55-87da-a449e8d9abb0" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.clsChargesTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="calculateTest" />
+    </UnitTest>
+    <UnitTest name="getTaxesTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="d34f6ec2-77c1-6910-58c6-fe207825f962">
+      <Execution id="837385cb-2367-461e-92e8-8a9e63a91d5d" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.clsChargesTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getTaxesTest" />
+    </UnitTest>
+    <UnitTest name="btnClear_ClickTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="ec7265e3-81b1-17df-a549-5c473eaebdd5">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="a23c39d2-f8db-43e4-8343-597cc0e0b0cd" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnClear_ClickTest" />
+    </UnitTest>
+    <UnitTest name="txtChangedOrLeave_NumericEmptyTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="ab334e8e-f28f-213a-6463-fae243bae4e6">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="701bc8fd-f5c2-47f7-98d3-fdc0dffd5f73" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtChangedOrLeave_NumericEmptyTest" />
+    </UnitTest>
+    <UnitTest name="getChargesTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="41659c6c-e095-5a55-2327-836a6128f791">
+      <Execution id="9dbc3c0e-ccb3-4bed-9d38-b12e932ebd2b" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.clsChargesTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getChargesTest" />
+    </UnitTest>
+    <UnitTest name="btnCalculate_NoTradeInTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="13f17089-26b6-adac-d056-369110824fa8">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="d360094d-c440-4511-b107-4420bc0b2b09" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnCalculate_NoTradeInTest" />
+    </UnitTest>
+    <UnitTest name="readFiles_PkgDesc" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="0bbe6ffa-7f35-3280-167d-5291f669ead8">
+      <Execution id="f5db5f3d-03cb-4813-a372-f7c4f474e20c" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmCarWashTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="readFiles_PkgDesc" />
+    </UnitTest>
+    <UnitTest name="resetFragTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="bee2e017-5a8f-f259-3229-1ba1ed7a1157">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="c9fc3782-f94b-446c-a0e2-57937b215feb" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmCarWashTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="resetFragTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="002a1621-eddc-ca64-2bf0-0344f5ea638f" executionId="64070452-f02c-4b5c-9841-de2b46204523" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0bbe6ffa-7f35-3280-167d-5291f669ead8" executionId="f5db5f3d-03cb-4813-a372-f7c4f474e20c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="102fe2c6-0f8a-4fe3-a03e-f2dcf1db55bf" executionId="e2ae1ca8-2aa9-4dc2-85f1-c71bd5278393" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13f17089-26b6-adac-d056-369110824fa8" executionId="d360094d-c440-4511-b107-4420bc0b2b09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c39960a-2e3b-95aa-d587-38a5239ff5b5" executionId="79d70026-e749-46a5-9f9d-9e7d79b93f96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d782757-5b4c-948a-a178-65a1ee0cc3e9" executionId="55935fce-dc05-4ecb-ae96-3cbb3ad2efec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2dfc81b8-5411-4c94-fc15-f5c632ebbbf7" executionId="f4d87fe6-4267-46c1-940a-67358e7d43bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f816674-c6d9-d0be-6071-220f254803ac" executionId="d6b35bbc-c418-4e04-815d-aa2c541208b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3363da85-f5a5-fa49-9945-e59f6abd009f" executionId="63c698f1-b05c-4204-b183-97e4ed6a8a91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35e5c4cd-e54b-ee29-c2c0-12fb7a2dc4ae" executionId="c18492df-882d-4ee2-822e-bde82763787e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38009d5c-e88a-4daf-c8c7-d948aca112fa" executionId="35e4a414-3c01-4a44-89ac-ad2d91e56c68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a4e6860-488c-74df-4062-971e5320d6a6" executionId="dcd20ef5-4fd5-4629-b301-55dd82a2a7ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a87717b-e8ad-1537-8952-ef4932a90a36" executionId="7d4a376b-04fc-4812-81a9-f2efd4b5722e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d6afc69-2574-416b-5051-4d0f0fa40b6a" executionId="0c0128ea-b782-4ac2-b270-c21d182e4179" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41659c6c-e095-5a55-2327-836a6128f791" executionId="9dbc3c0e-ccb3-4bed-9d38-b12e932ebd2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="434aa807-b360-efe8-7a04-8eeea42998f0" executionId="d349602e-cba0-442d-ac99-c5d717322bd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45a8c117-d6a9-1d87-84b9-04e419370e4a" executionId="24fd56a0-7347-4772-a6a3-7d71cb63dfbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b548cbb-f070-3eab-57a1-27b52b5758f9" executionId="f3391f70-af8f-4205-bba9-1912053b8b8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d87978f-e5f4-f1d2-b459-2f5287647e5a" executionId="b10dfd92-f25f-450b-b126-906d315662c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52dd2c69-511c-e3c3-9151-3221a6eb0905" executionId="18775e0f-0947-4ac2-8cbe-0e1eba62db83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="533fc48b-da81-1b70-c6fd-b246ce3de668" executionId="8dc3637f-e83a-47ef-aea7-e262cd2b66f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53d9f262-5d73-c3f9-e64f-5cef8eafce47" executionId="f697a296-39e3-4445-add9-e34120a6d9b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5565d732-dad7-4a06-da1f-b46e76896158" executionId="98450279-d142-4285-9d0a-f0db7b5fae95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5742311f-0f22-487a-e746-358c37201c0a" executionId="d7dcf835-6b53-4410-8b8f-80c082e69617" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b71a64d-9c2e-2947-fa57-e52621ef55a7" executionId="92d31df1-497b-4013-94b5-5c0bc1d93413" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6114b447-dad1-f584-bfff-97bcd4c5c7e8" executionId="ca8a5789-30c1-4b55-87da-a449e8d9abb0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="617cfebc-4eb5-27fe-13e8-77be2a6a1d90" executionId="bda2dc80-8000-4df0-a604-dc6e04c57260" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="651ee12c-eead-caed-365a-cef57fe49640" executionId="1fe3c0b8-ee02-4232-8409-b55a1f43f901" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65d01eaf-e5f5-5bef-c4ca-1a350486c257" executionId="5f55d0e0-d704-4ff9-8a71-288f75ba14b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6648b852-8b96-323d-69bc-7e6c3f8c5422" executionId="4e21354e-46d2-4969-b1b4-d344915040d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69d8cdff-358e-e0a2-86a1-f09ba854ef17" executionId="4294b5f4-6968-4126-8f05-637dcfbcb707" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ca4807f-540d-c6a8-7b1c-625d17427524" executionId="586d1d08-1b67-478d-b380-495719d8a739" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70d6e0ce-7904-51f5-973e-2b44a102aeb7" executionId="c72c941b-da20-4812-9b64-6c785ebd6c89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="872c648d-205b-0c6e-4042-5f17165e4c76" executionId="19dd4b3b-31d8-4932-b8e3-ffe6517ea64a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9222fecf-4f1e-8c35-74ae-f7b601608fd1" executionId="9d4987c2-9a28-4daf-ba5a-936199ec7f09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93e7a9d2-7f5d-6f59-bcd8-4a5a6ea7b55a" executionId="4f4d5571-4bcd-4ad5-b9a1-b4fca3bcdb97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9488ef8e-9ae3-80b4-8035-92743c3f0ce1" executionId="a7802973-0c0d-4ab2-aba5-c287bf347668" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c124bcf-e619-5c77-498a-2ac79e8694f1" executionId="9ed24d89-dbcc-4814-aae3-2b0890a23523" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a29865ee-1c72-d54c-fb82-e612ddc8d093" executionId="5f0365d0-85d1-4b89-a0cf-23faeebf3937" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2ae5d1a-bef5-cd1a-fd2f-d198f86dae11" executionId="388c8505-48b9-47a9-9ccc-c235f7edf240" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a57028c1-a1a2-8baf-bd97-ab588ce5c293" executionId="c8e4792d-96b0-4f00-8238-ba60aa76b3d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6211a8f-d89b-fdcf-9a15-1658106b675d" executionId="c4429222-d32d-41f1-84d7-8ca076608eb7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8a322f5-7852-0d39-ef34-d922cd11f707" executionId="bbc0755f-85c4-49c6-bb3f-f3522d1fdbb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa3baa45-ea4a-aae1-2cb7-8c1a5b6fbbcf" executionId="3b855299-3fb4-4262-aaa5-4da1451ee0ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab334e8e-f28f-213a-6463-fae243bae4e6" executionId="701bc8fd-f5c2-47f7-98d3-fdc0dffd5f73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aec8b30e-86a2-1110-317c-162519fee187" executionId="424de9b7-9164-49fd-94c5-2537065d435c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2df5790-1cff-f5de-c6e2-89b38d005091" executionId="5b21d42e-202d-4612-a4ab-24562804478a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8e8abfa-5cbf-81ad-8c99-afde5d754357" executionId="8ef30010-8213-47cb-a634-b3cb4c370983" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bee2e017-5a8f-f259-3229-1ba1ed7a1157" executionId="c9fc3782-f94b-446c-a0e2-57937b215feb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bef5b3c0-0dd2-395e-8ebe-1d117ff080bf" executionId="8369a021-605e-4afa-af59-f9295e94a660" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c15411e5-b4d0-273d-89d8-a36388864804" executionId="de4c8e0f-1728-4595-8953-2a957b71e2b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c59c3d8e-53e2-98e1-00f9-0e1cb81123e2" executionId="98d1e391-872b-4a17-a747-01208631cf8b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7aca7a3-7564-3262-fa47-b2944e13b6f9" executionId="2cfe0a00-a1ec-4912-8806-a7c5500d86d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c87020ce-f939-380f-ce63-25cc8b864c50" executionId="3189876d-384b-4b2d-bcf9-9951b0870ca0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cecbe4a8-1371-9dfd-a066-49942a24f9a5" executionId="293ab44a-f9ce-482c-8469-dca53abaf7b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d22b8720-2396-59f9-5495-600f2fe852ef" executionId="23f5c61c-82e1-4344-bb52-7d1f45245cdf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d34f6ec2-77c1-6910-58c6-fe207825f962" executionId="837385cb-2367-461e-92e8-8a9e63a91d5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3751965-96b3-454e-9878-5e9c8b111963" executionId="2aecc085-ca49-4b5c-ace6-9b795d0bd23e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5280dcd-6a77-7c8a-8e6a-27b6b0335f02" executionId="c72caab0-75f0-4275-963a-239b6052e488" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d78a36a3-2055-f2af-fc61-74bb739f5eff" executionId="08314f8c-48cd-423c-8938-9c448b456637" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7c710e5-cc08-ac5c-c802-8f1c80d3c021" executionId="be4dc859-3790-49f8-b225-17270cdb65bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d80dad86-99ae-aa29-b46c-a4768048d274" executionId="260ffffe-c756-4c00-9f06-2338ba757bda" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbcb17e9-71e9-a092-ad4c-10c8eb1858d3" executionId="c815e32f-538f-47af-be47-994c371f09b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4c7774b-a1bb-357f-84d5-37861d25edbf" executionId="4c7c1125-90e4-48b7-8238-3a534294094a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7310224-640c-46ae-2e73-7ba3861176ac" executionId="adf90568-90c3-45f0-bb42-2b9aa3473bde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8bb5cd8-bc3c-2c60-2e53-498c41282682" executionId="6ff1bb10-2f76-4439-a9ea-93a6f271bbd7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9e57f24-0c94-4717-526b-b49ac8fb90fb" executionId="eee5f5f2-bb46-42f5-bfeb-973e4f765925" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec7265e3-81b1-17df-a549-5c473eaebdd5" executionId="a23c39d2-f8db-43e4-8343-597cc0e0b0cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f044e7ce-e9b7-f039-4105-5cd881f28baa" executionId="0f83ace6-4b90-4e4b-b733-a600856e9283" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3995e10-0f0e-0072-ebba-5cc4aa6e8c6a" executionId="e52bc529-350b-4b26-a530-2c5e513d0d24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5e539bb-191e-2c18-e7c9-abe35728d6a4" executionId="c70e7976-9ff1-48dc-a35a-a9a364af9a4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa8c2ce7-c1b4-4f04-a1e9-f63fe05d2d18" executionId="ef043b77-10ed-4fd9-bb88-81cc7b4f88bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb655678-719d-c498-3c6f-d378ca9161c3" executionId="2fe61575-06f8-41da-880b-1b6bcedca875" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="64070452-f02c-4b5c-9841-de2b46204523" testId="002a1621-eddc-ca64-2bf0-0344f5ea638f" testName="calculateTest_yearsMin" computerName="ITSM1033954" duration="00:00:00.1336262" startTime="2012-11-09T10:06:56.7059457-06:00" endTime="2012-11-09T10:06:57.0779829-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64070452-f02c-4b5c-9841-de2b46204523">
+    </UnitTestResult>
+    <UnitTestResult executionId="f5db5f3d-03cb-4813-a372-f7c4f474e20c" testId="0bbe6ffa-7f35-3280-167d-5291f669ead8" testName="readFiles_PkgDesc" computerName="ITSM1033954" duration="00:00:00.0334809" startTime="2012-11-09T10:06:57.0809832-06:00" endTime="2012-11-09T10:06:57.1189870-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5db5f3d-03cb-4813-a372-f7c4f474e20c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4&gt;. Actual:&lt;8&gt;. Not the current count.</Message>
+          <StackTrace>   at EdwardClorinaTest.frmCarWashTest.readFiles_PkgDesc() in C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\EdwardClorinaTest\frmCarWashTest.vb:line 150
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e2ae1ca8-2aa9-4dc2-85f1-c71bd5278393" testId="102fe2c6-0f8a-4fe3-a03e-f2dcf1db55bf" testName="textEnteredTest" computerName="ITSM1033954" duration="00:00:00.0257310" startTime="2012-11-09T10:06:57.1259877-06:00" endTime="2012-11-09T10:06:57.1569908-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2ae1ca8-2aa9-4dc2-85f1-c71bd5278393">
+    </UnitTestResult>
+    <UnitTestResult executionId="d360094d-c440-4511-b107-4420bc0b2b09" testId="13f17089-26b6-adac-d056-369110824fa8" testName="btnCalculate_NoTradeInTest" computerName="ITSM1033954" duration="00:00:00.0740264" startTime="2012-11-09T10:06:57.1619913-06:00" endTime="2012-11-09T10:06:57.2419993-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d360094d-c440-4511-b107-4420bc0b2b09">
+    </UnitTestResult>
+    <UnitTestResult executionId="79d70026-e749-46a5-9f9d-9e7d79b93f96" testId="1c39960a-2e3b-95aa-d587-38a5239ff5b5" testName="btnCalculate_AllTest" computerName="ITSM1033954" duration="00:00:00.0067222" startTime="2012-11-09T10:06:57.2449996-06:00" endTime="2012-11-09T10:06:57.2570008-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79d70026-e749-46a5-9f9d-9e7d79b93f96">
+    </UnitTestResult>
+    <UnitTestResult executionId="55935fce-dc05-4ecb-ae96-3cbb3ad2efec" testId="2d782757-5b4c-948a-a178-65a1ee0cc3e9" testName="readFiles_Interior" computerName="ITSM1033954" duration="00:00:00.0032837" startTime="2012-11-09T10:06:57.2600011-06:00" endTime="2012-11-09T10:06:57.2690020-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55935fce-dc05-4ecb-ae96-3cbb3ad2efec">
+    </UnitTestResult>
+    <UnitTestResult executionId="f4d87fe6-4267-46c1-940a-67358e7d43bb" testId="2dfc81b8-5411-4c94-fc15-f5c632ebbbf7" testName="getTotalTest" computerName="ITSM1033954" duration="00:00:00.0039021" startTime="2012-11-09T10:06:57.2730024-06:00" endTime="2012-11-09T10:06:57.2840035-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4d87fe6-4267-46c1-940a-67358e7d43bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="d6b35bbc-c418-4e04-815d-aa2c541208b0" testId="2f816674-c6d9-d0be-6071-220f254803ac" testName="chkChangedStereoCompNav_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0089841" startTime="2012-11-09T10:06:57.2860037-06:00" endTime="2012-11-09T10:06:57.3030054-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6b35bbc-c418-4e04-815d-aa2c541208b0">
+    </UnitTestResult>
+    <UnitTestResult executionId="63c698f1-b05c-4204-b183-97e4ed6a8a91" testId="3363da85-f5a5-fa49-9945-e59f6abd009f" testName="SummaryToolStripMenuItem_Test" computerName="ITSM1033954" duration="00:00:01.3652274" startTime="2012-11-09T10:06:57.3060057-06:00" endTime="2012-11-09T10:06:58.6851436-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63c698f1-b05c-4204-b183-97e4ed6a8a91">
+    </UnitTestResult>
+    <UnitTestResult executionId="c18492df-882d-4ee2-822e-bde82763787e" testId="35e5c4cd-e54b-ee29-c2c0-12fb7a2dc4ae" testName="enableFinanceTest_TrueBoolean" computerName="ITSM1033954" duration="00:00:00.0280527" startTime="2012-11-09T10:06:58.6961447-06:00" endTime="2012-11-09T10:06:58.7321483-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c18492df-882d-4ee2-822e-bde82763787e">
+    </UnitTestResult>
+    <UnitTestResult executionId="35e4a414-3c01-4a44-89ac-ad2d91e56c68" testId="38009d5c-e88a-4daf-c8c7-d948aca112fa" testName="averageContractTest" computerName="ITSM1033954" duration="00:00:00.0158250" startTime="2012-11-09T10:06:58.7361487-06:00" endTime="2012-11-09T10:06:58.7591510-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35e4a414-3c01-4a44-89ac-ad2d91e56c68">
+    </UnitTestResult>
+    <UnitTestResult executionId="dcd20ef5-4fd5-4629-b301-55dd82a2a7ed" testId="3a4e6860-488c-74df-4062-971e5320d6a6" testName="chkChangedLeatherCompNav_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0098221" startTime="2012-11-09T10:06:58.7631514-06:00" endTime="2012-11-09T10:06:58.7801531-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dcd20ef5-4fd5-4629-b301-55dd82a2a7ed">
+    </UnitTestResult>
+    <UnitTestResult executionId="7d4a376b-04fc-4812-81a9-f2efd4b5722e" testId="3a87717b-e8ad-1537-8952-ef4932a90a36" testName="frmSummary_LoadTest" computerName="ITSM1033954" duration="00:00:00.0119719" startTime="2012-11-09T10:06:58.7821533-06:00" endTime="2012-11-09T10:06:58.8001551-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d4a376b-04fc-4812-81a9-f2efd4b5722e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;$16.80&gt;. Actual:&lt;$50.40&gt;. total Service Contracts not properly set.</Message>
+          <StackTrace>   at EdwardClorinaTest.frmSummaryTest.frmSummary_LoadTest() in C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\EdwardClorinaTest\frmSummaryTest.vb:line 93
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0c0128ea-b782-4ac2-b270-c21d182e4179" testId="3d6afc69-2574-416b-5051-4d0f0fa40b6a" testName="mdecPartsTest" computerName="ITSM1033954" duration="00:00:00.0009495" startTime="2012-11-09T10:06:58.8021553-06:00" endTime="2012-11-09T10:06:58.8101561-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c0128ea-b782-4ac2-b270-c21d182e4179">
+    </UnitTestResult>
+    <UnitTestResult executionId="9dbc3c0e-ccb3-4bed-9d38-b12e932ebd2b" testId="41659c6c-e095-5a55-2327-836a6128f791" testName="getChargesTest" computerName="ITSM1033954" duration="00:00:00.0007362" startTime="2012-11-09T10:06:58.8111562-06:00" endTime="2012-11-09T10:06:58.8181569-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9dbc3c0e-ccb3-4bed-9d38-b12e932ebd2b">
+    </UnitTestResult>
+    <UnitTestResult executionId="d349602e-cba0-442d-ac99-c5d717322bd4" testId="434aa807-b360-efe8-7a04-8eeea42998f0" testName="enableFinanceTest_TrueRate" computerName="ITSM1033954" duration="00:00:00.0077257" startTime="2012-11-09T10:06:58.8201571-06:00" endTime="2012-11-09T10:06:58.8341585-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d349602e-cba0-442d-ac99-c5d717322bd4">
+    </UnitTestResult>
+    <UnitTestResult executionId="24fd56a0-7347-4772-a6a3-7d71cb63dfbb" testId="45a8c117-d6a9-1d87-84b9-04e419370e4a" testName="radChangedStandard_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0079984" startTime="2012-11-09T10:06:58.8361587-06:00" endTime="2012-11-09T10:06:58.8491600-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24fd56a0-7347-4772-a6a3-7d71cb63dfbb">
+    </UnitTestResult>
+    <UnitTestResult executionId="f3391f70-af8f-4205-bba9-1912053b8b8c" testId="4b548cbb-f070-3eab-57a1-27b52b5758f9" testName="enableFinanceTest_False" computerName="ITSM1033954" duration="00:00:00.0094963" startTime="2012-11-09T10:06:58.8511602-06:00" endTime="2012-11-09T10:06:58.8671618-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3391f70-af8f-4205-bba9-1912053b8b8c">
+    </UnitTestResult>
+    <UnitTestResult executionId="b10dfd92-f25f-450b-b126-906d315662c0" testId="4d87978f-e5f4-f1d2-b459-2f5287647e5a" testName="readFiles_FragPrices" computerName="ITSM1033954" duration="00:00:00.0037169" startTime="2012-11-09T10:06:58.8701621-06:00" endTime="2012-11-09T10:06:58.8801631-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b10dfd92-f25f-450b-b126-906d315662c0">
+    </UnitTestResult>
+    <UnitTestResult executionId="18775e0f-0947-4ac2-8cbe-0e1eba62db83" testId="52dd2c69-511c-e3c3-9151-3221a6eb0905" testName="calculateTest_yearsMax" computerName="ITSM1033954" duration="00:00:00.0097801" startTime="2012-11-09T10:06:58.8841635-06:00" endTime="2012-11-09T10:06:58.9011652-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18775e0f-0947-4ac2-8cbe-0e1eba62db83">
+    </UnitTestResult>
+    <UnitTestResult executionId="8dc3637f-e83a-47ef-aea7-e262cd2b66f2" testId="533fc48b-da81-1b70-c6fd-b246ce3de668" testName="calcAmountTest" computerName="ITSM1033954" duration="00:00:00.0009049" startTime="2012-11-09T10:06:58.9041655-06:00" endTime="2012-11-09T10:06:58.9101661-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8dc3637f-e83a-47ef-aea7-e262cd2b66f2">
+    </UnitTestResult>
+    <UnitTestResult executionId="f697a296-39e3-4445-add9-e34120a6d9b7" testId="53d9f262-5d73-c3f9-e64f-5cef8eafce47" testName="frmCarWash_LoadTest" computerName="ITSM1033954" duration="00:00:00.0036326" startTime="2012-11-09T10:06:58.9141665-06:00" endTime="2012-11-09T10:06:58.9251676-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f697a296-39e3-4445-add9-e34120a6d9b7">
+    </UnitTestResult>
+    <UnitTestResult executionId="98450279-d142-4285-9d0a-f0db7b5fae95" testId="5565d732-dad7-4a06-da1f-b46e76896158" testName="btnCalculate_HigherTradeInTest" computerName="ITSM1033954" duration="00:00:00.0066182" startTime="2012-11-09T10:06:58.9291680-06:00" endTime="2012-11-09T10:06:58.9411692-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98450279-d142-4285-9d0a-f0db7b5fae95">
+    </UnitTestResult>
+    <UnitTestResult executionId="d7dcf835-6b53-4410-8b8f-80c082e69617" testId="5742311f-0f22-487a-e746-358c37201c0a" testName="textLeaveChangedTest_Numeric" computerName="ITSM1033954" duration="00:00:00.0044095" startTime="2012-11-09T10:06:58.9461697-06:00" endTime="2012-11-09T10:06:58.9561707-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7dcf835-6b53-4410-8b8f-80c082e69617">
+    </UnitTestResult>
+    <UnitTestResult executionId="92d31df1-497b-4013-94b5-5c0bc1d93413" testId="5b71a64d-9c2e-2947-fa57-e52621ef55a7" testName="readFiles_Exterior" computerName="ITSM1033954" duration="00:00:00.0040079" startTime="2012-11-09T10:06:58.9611712-06:00" endTime="2012-11-09T10:06:58.9711722-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92d31df1-497b-4013-94b5-5c0bc1d93413">
+    </UnitTestResult>
+    <UnitTestResult executionId="ca8a5789-30c1-4b55-87da-a449e8d9abb0" testId="6114b447-dad1-f584-bfff-97bcd4c5c7e8" testName="calculateTest" computerName="ITSM1033954" duration="00:00:00.0004689" startTime="2012-11-09T10:06:58.9781729-06:00" endTime="2012-11-09T10:06:58.9841735-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca8a5789-30c1-4b55-87da-a449e8d9abb0">
+    </UnitTestResult>
+    <UnitTestResult executionId="bda2dc80-8000-4df0-a604-dc6e04c57260" testId="617cfebc-4eb5-27fe-13e8-77be2a6a1d90" testName="chkChangedNone_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0065393" startTime="2012-11-09T10:06:58.9871738-06:00" endTime="2012-11-09T10:06:59.0001751-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bda2dc80-8000-4df0-a604-dc6e04c57260">
+    </UnitTestResult>
+    <UnitTestResult executionId="1fe3c0b8-ee02-4232-8409-b55a1f43f901" testId="651ee12c-eead-caed-365a-cef57fe49640" testName="chkChangedLeather_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0070180" startTime="2012-11-09T10:06:59.0041755-06:00" endTime="2012-11-09T10:06:59.0171768-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fe3c0b8-ee02-4232-8409-b55a1f43f901">
+    </UnitTestResult>
+    <UnitTestResult executionId="5f55d0e0-d704-4ff9-8a71-288f75ba14b1" testId="65d01eaf-e5f5-5bef-c4ca-1a350486c257" testName="CalculateToolStripMenuItem_ClickTest" computerName="ITSM1033954" duration="00:00:00.0043287" startTime="2012-11-09T10:06:59.0201771-06:00" endTime="2012-11-09T10:06:59.0311782-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f55d0e0-d704-4ff9-8a71-288f75ba14b1">
+    </UnitTestResult>
+    <UnitTestResult executionId="4e21354e-46d2-4969-b1b4-d344915040d1" testId="6648b852-8b96-323d-69bc-7e6c3f8c5422" testName="AcceptQuoteToolStripMenuItem_Test" computerName="ITSM1033954" duration="00:00:00.0087802" startTime="2012-11-09T10:06:59.0331784-06:00" endTime="2012-11-09T10:06:59.0481799-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e21354e-46d2-4969-b1b4-d344915040d1">
+    </UnitTestResult>
+    <UnitTestResult executionId="4294b5f4-6968-4126-8f05-637dcfbcb707" testId="69d8cdff-358e-e0a2-86a1-f09ba854ef17" testName="btnCalculate_NoAccessoriesTest" computerName="ITSM1033954" duration="00:00:00.0077543" startTime="2012-11-09T10:06:59.0511802-06:00" endTime="2012-11-09T10:06:59.0641815-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4294b5f4-6968-4126-8f05-637dcfbcb707">
+    </UnitTestResult>
+    <UnitTestResult executionId="586d1d08-1b67-478d-b380-495719d8a739" testId="6ca4807f-540d-c6a8-7b1c-625d17427524" testName="btnCalculate_MultipleTest" computerName="ITSM1033954" duration="00:00:00.0075535" startTime="2012-11-09T10:06:59.0661817-06:00" endTime="2012-11-09T10:06:59.0801831-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="586d1d08-1b67-478d-b380-495719d8a739">
+    </UnitTestResult>
+    <UnitTestResult executionId="c72c941b-da20-4812-9b64-6c785ebd6c89" testId="70d6e0ce-7904-51f5-973e-2b44a102aeb7" testName="chkChangedStereo_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0385044" startTime="2012-11-09T10:06:59.0821833-06:00" endTime="2012-11-09T10:06:59.1271878-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c72c941b-da20-4812-9b64-6c785ebd6c89">
+    </UnitTestResult>
+    <UnitTestResult executionId="19dd4b3b-31d8-4932-b8e3-ffe6517ea64a" testId="872c648d-205b-0c6e-4042-5f17165e4c76" testName="getFragIndexTest" computerName="ITSM1033954" duration="00:00:00.0033903" startTime="2012-11-09T10:06:59.1291880-06:00" endTime="2012-11-09T10:06:59.1381889-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19dd4b3b-31d8-4932-b8e3-ffe6517ea64a">
+    </UnitTestResult>
+    <UnitTestResult executionId="9d4987c2-9a28-4daf-ba5a-936199ec7f09" testId="9222fecf-4f1e-8c35-74ae-f7b601608fd1" testName="radChangedCustomDetail_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0064045" startTime="2012-11-09T10:06:59.1411892-06:00" endTime="2012-11-09T10:06:59.1521903-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d4987c2-9a28-4daf-ba5a-936199ec7f09">
+    </UnitTestResult>
+    <UnitTestResult executionId="4f4d5571-4bcd-4ad5-b9a1-b4fca3bcdb97" testId="93e7a9d2-7f5d-6f59-bcd8-4a5a6ea7b55a" testName="radChangedPearlized_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0065210" startTime="2012-11-09T10:06:59.1551906-06:00" endTime="2012-11-09T10:06:59.1661917-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f4d5571-4bcd-4ad5-b9a1-b4fca3bcdb97">
+    </UnitTestResult>
+    <UnitTestResult executionId="a7802973-0c0d-4ab2-aba5-c287bf347668" testId="9488ef8e-9ae3-80b4-8035-92743c3f0ce1" testName="quoteEnabledTrue_Test" computerName="ITSM1033954" duration="00:00:00.0071367" startTime="2012-11-09T10:06:59.1681919-06:00" endTime="2012-11-09T10:06:59.1811932-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7802973-0c0d-4ab2-aba5-c287bf347668">
+    </UnitTestResult>
+    <UnitTestResult executionId="9ed24d89-dbcc-4814-aae3-2b0890a23523" testId="9c124bcf-e619-5c77-498a-2ac79e8694f1" testName="clearEnabledTrue_Test" computerName="ITSM1033954" duration="00:00:00.0098091" startTime="2012-11-09T10:06:59.1841935-06:00" endTime="2012-11-09T10:06:59.1991950-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ed24d89-dbcc-4814-aae3-2b0890a23523">
+    </UnitTestResult>
+    <UnitTestResult executionId="5f0365d0-85d1-4b89-a0cf-23faeebf3937" testId="a29865ee-1c72-d54c-fb82-e612ddc8d093" testName="mdecPriceTest" computerName="ITSM1033954" duration="00:00:00.0009352" startTime="2012-11-09T10:06:59.2021953-06:00" endTime="2012-11-09T10:06:59.2081959-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f0365d0-85d1-4b89-a0cf-23faeebf3937">
+    </UnitTestResult>
+    <UnitTestResult executionId="388c8505-48b9-47a9-9ccc-c235f7edf240" testId="a2ae5d1a-bef5-cd1a-fd2f-d198f86dae11" testName="chkChangedAll_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0061917" startTime="2012-11-09T10:06:59.2101961-06:00" endTime="2012-11-09T10:06:59.2221973-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="388c8505-48b9-47a9-9ccc-c235f7edf240">
+    </UnitTestResult>
+    <UnitTestResult executionId="c8e4792d-96b0-4f00-8238-ba60aa76b3d1" testId="a57028c1-a1a2-8baf-bd97-ab588ce5c293" testName="ClearToolStripMenuItem_ClickTest" computerName="ITSM1033954" duration="00:00:00.0046143" startTime="2012-11-09T10:06:59.2241975-06:00" endTime="2012-11-09T10:06:59.2351986-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8e4792d-96b0-4f00-8238-ba60aa76b3d1">
+    </UnitTestResult>
+    <UnitTestResult executionId="c4429222-d32d-41f1-84d7-8ca076608eb7" testId="a6211a8f-d89b-fdcf-9a15-1658106b675d" testName="chkChangedCompNav_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0059739" startTime="2012-11-09T10:06:59.2381989-06:00" endTime="2012-11-09T10:06:59.2492000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4429222-d32d-41f1-84d7-8ca076608eb7">
+    </UnitTestResult>
+    <UnitTestResult executionId="bbc0755f-85c4-49c6-bb3f-f3522d1fdbb4" testId="a8a322f5-7852-0d39-ef34-d922cd11f707" testName="enableFinanceTest_TrueYears" computerName="ITSM1033954" duration="00:00:00.0080073" startTime="2012-11-09T10:06:59.2522003-06:00" endTime="2012-11-09T10:06:59.2652016-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbc0755f-85c4-49c6-bb3f-f3522d1fdbb4">
+    </UnitTestResult>
+    <UnitTestResult executionId="3b855299-3fb4-4262-aaa5-4da1451ee0ca" testId="aa3baa45-ea4a-aae1-2cb7-8c1a5b6fbbcf" testName="txtSelectAllCustomerName_EnterTest" computerName="ITSM1033954" duration="00:00:00.0069217" startTime="2012-11-09T10:06:59.2682019-06:00" endTime="2012-11-09T10:06:59.2802031-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b855299-3fb4-4262-aaa5-4da1451ee0ca">
+    </UnitTestResult>
+    <UnitTestResult executionId="701bc8fd-f5c2-47f7-98d3-fdc0dffd5f73" testId="ab334e8e-f28f-213a-6463-fae243bae4e6" testName="txtChangedOrLeave_NumericEmptyTest" computerName="ITSM1033954" duration="00:00:00.0067347" startTime="2012-11-09T10:06:59.2822033-06:00" endTime="2012-11-09T10:06:59.2952046-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="701bc8fd-f5c2-47f7-98d3-fdc0dffd5f73">
+    </UnitTestResult>
+    <UnitTestResult executionId="424de9b7-9164-49fd-94c5-2537065d435c" testId="aec8b30e-86a2-1110-317c-162519fee187" testName="txtSelectAllSalePrice_EnterTest" computerName="ITSM1033954" duration="00:00:00.0060962" startTime="2012-11-09T10:06:59.2962047-06:00" endTime="2012-11-09T10:06:59.3082059-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="424de9b7-9164-49fd-94c5-2537065d435c">
+    </UnitTestResult>
+    <UnitTestResult executionId="5b21d42e-202d-4612-a4ab-24562804478a" testId="b2df5790-1cff-f5de-c6e2-89b38d005091" testName="readFiles_PkgPrices" computerName="ITSM1033954" duration="00:00:00.0052568" startTime="2012-11-09T10:06:59.3112062-06:00" endTime="2012-11-09T10:06:59.3212072-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b21d42e-202d-4612-a4ab-24562804478a">
+    </UnitTestResult>
+    <UnitTestResult executionId="8ef30010-8213-47cb-a634-b3cb4c370983" testId="b8e8abfa-5cbf-81ad-8c99-afde5d754357" testName="txtChangedOrLeaveTradeIn_NonNumericTest" computerName="ITSM1033954" duration="00:00:00.0066437" startTime="2012-11-09T10:06:59.3242075-06:00" endTime="2012-11-09T10:06:59.3362087-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ef30010-8213-47cb-a634-b3cb4c370983">
+    </UnitTestResult>
+    <UnitTestResult executionId="c9fc3782-f94b-446c-a0e2-57937b215feb" testId="bee2e017-5a8f-f259-3229-1ba1ed7a1157" testName="resetFragTest" computerName="ITSM1033954" duration="00:00:00.0030570" startTime="2012-11-09T10:06:59.3392090-06:00" endTime="2012-11-09T10:06:59.3472098-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9fc3782-f94b-446c-a0e2-57937b215feb">
+    </UnitTestResult>
+    <UnitTestResult executionId="8369a021-605e-4afa-af59-f9295e94a660" testId="bef5b3c0-0dd2-395e-8ebe-1d117ff080bf" testName="sendMessageTest" computerName="ITSM1033954" duration="00:00:00.0026407" startTime="2012-11-09T10:06:59.3492100-06:00" endTime="2012-11-09T10:06:59.3582109-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8369a021-605e-4afa-af59-f9295e94a660">
+    </UnitTestResult>
+    <UnitTestResult executionId="de4c8e0f-1728-4595-8953-2a957b71e2b7" testId="c15411e5-b4d0-273d-89d8-a36388864804" testName="readFiles_FragDesc" computerName="ITSM1033954" duration="00:00:00.0031427" startTime="2012-11-09T10:06:59.3602111-06:00" endTime="2012-11-09T10:06:59.3682119-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de4c8e0f-1728-4595-8953-2a957b71e2b7">
+    </UnitTestResult>
+    <UnitTestResult executionId="98d1e391-872b-4a17-a747-01208631cf8b" testId="c59c3d8e-53e2-98e1-00f9-0e1cb81123e2" testName="clearEnabledFalse_Test" computerName="ITSM1033954" duration="00:00:00.0059418" startTime="2012-11-09T10:06:59.3712122-06:00" endTime="2012-11-09T10:06:59.3822133-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98d1e391-872b-4a17-a747-01208631cf8b">
+    </UnitTestResult>
+    <UnitTestResult executionId="2cfe0a00-a1ec-4912-8806-a7c5500d86d6" testId="c7aca7a3-7564-3262-fa47-b2944e13b6f9" testName="btnClear_ClickTest" computerName="ITSM1033954" duration="00:00:00.0041288" startTime="2012-11-09T10:06:59.3852136-06:00" endTime="2012-11-09T10:06:59.3942145-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cfe0a00-a1ec-4912-8806-a7c5500d86d6">
+    </UnitTestResult>
+    <UnitTestResult executionId="3189876d-384b-4b2d-bcf9-9951b0870ca0" testId="c87020ce-f939-380f-ce63-25cc8b864c50" testName="cbo_SelectedIndexChangedTest" computerName="ITSM1033954" duration="00:00:00.0052060" startTime="2012-11-09T10:06:59.3972148-06:00" endTime="2012-11-09T10:06:59.4082159-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3189876d-384b-4b2d-bcf9-9951b0870ca0">
+    </UnitTestResult>
+    <UnitTestResult executionId="293ab44a-f9ce-482c-8469-dca53abaf7b4" testId="cecbe4a8-1371-9dfd-a066-49942a24f9a5" testName="clsServiceConstructorTest_Default" computerName="ITSM1033954" duration="00:00:00.0005756" startTime="2012-11-09T10:06:59.4122163-06:00" endTime="2012-11-09T10:06:59.4222173-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="293ab44a-f9ce-482c-8469-dca53abaf7b4">
+    </UnitTestResult>
+    <UnitTestResult executionId="23f5c61c-82e1-4344-bb52-7d1f45245cdf" testId="d22b8720-2396-59f9-5495-600f2fe852ef" testName="chkChangedStereoLeather_CheckedChangedTest" computerName="ITSM1033954" duration="00:00:00.0063277" startTime="2012-11-09T10:06:59.4242175-06:00" endTime="2012-11-09T10:06:59.4372188-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23f5c61c-82e1-4344-bb52-7d1f45245cdf">
+    </UnitTestResult>
+    <UnitTestResult executionId="837385cb-2367-461e-92e8-8a9e63a91d5d" testId="d34f6ec2-77c1-6910-58c6-fe207825f962" testName="getTaxesTest" computerName="ITSM1033954" duration="00:00:00.0010628" startTime="2012-11-09T10:06:59.4382189-06:00" endTime="2012-11-09T10:06:59.4462197-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="837385cb-2367-461e-92e8-8a9e63a91d5d">
+    </UnitTestResult>
+    <UnitTestResult executionId="2aecc085-ca49-4b5c-ace6-9b795d0bd23e" testId="d3751965-96b3-454e-9878-5e9c8b111963" testName="calculateTest" computerName="ITSM1033954" duration="00:00:00.0064902" startTime="2012-11-09T10:06:59.4472198-06:00" endTime="2012-11-09T10:06:59.4602211-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2aecc085-ca49-4b5c-ace6-9b795d0bd23e">
+    </UnitTestResult>
+    <UnitTestResult executionId="c72caab0-75f0-4275-963a-239b6052e488" testId="d5280dcd-6a77-7c8a-8e6a-27b6b0335f02" testName="quoteEnabledFalse_Test" computerName="ITSM1033954" duration="00:00:00.0061778" startTime="2012-11-09T10:06:59.4612212-06:00" endTime="2012-11-09T10:06:59.4732224-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c72caab0-75f0-4275-963a-239b6052e488">
+    </UnitTestResult>
+    <UnitTestResult executionId="08314f8c-48cd-423c-8938-9c448b456637" testId="d78a36a3-2055-f2af-fc61-74bb739f5eff" testName="mdecMaterialsTest" computerName="ITSM1033954" duration="00:00:00.0008745" startTime="2012-11-09T10:06:59.4752226-06:00" endTime="2012-11-09T10:06:59.4812232-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08314f8c-48cd-423c-8938-9c448b456637">
+    </UnitTestResult>
+    <UnitTestResult executionId="be4dc859-3790-49f8-b225-17270cdb65bc" testId="d7c710e5-cc08-ac5c-c802-8f1c80d3c021" testName="clsChargesConstructor_Parameterized" computerName="ITSM1033954" duration="00:00:00.0004145" startTime="2012-11-09T10:06:59.4822233-06:00" endTime="2012-11-09T10:06:59.4892240-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be4dc859-3790-49f8-b225-17270cdb65bc">
+    </UnitTestResult>
+    <UnitTestResult executionId="260ffffe-c756-4c00-9f06-2338ba757bda" testId="d80dad86-99ae-aa29-b46c-a4768048d274" testName="clsServiceConstructorTest_Parameterized" computerName="ITSM1033954" duration="00:00:00.0003975" startTime="2012-11-09T10:06:59.4902241-06:00" endTime="2012-11-09T10:06:59.4962247-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="260ffffe-c756-4c00-9f06-2338ba757bda">
+    </UnitTestResult>
+    <UnitTestResult executionId="c815e32f-538f-47af-be47-994c371f09b5" testId="dbcb17e9-71e9-a092-ad4c-10c8eb1858d3" testName="calculateTest_noAmountDue" computerName="ITSM1033954" duration="00:00:00.0062742" startTime="2012-11-09T10:06:59.4972248-06:00" endTime="2012-11-09T10:06:59.5102261-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c815e32f-538f-47af-be47-994c371f09b5">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c7c1125-90e4-48b7-8238-3a534294094a" testId="e4c7774b-a1bb-357f-84d5-37861d25edbf" testName="hsbYearsInterestRate_Rate" computerName="ITSM1033954" duration="00:00:00.0373599" startTime="2012-11-09T10:06:59.5122263-06:00" endTime="2012-11-09T10:06:59.5552306-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c7c1125-90e4-48b7-8238-3a534294094a">
+    </UnitTestResult>
+    <UnitTestResult executionId="adf90568-90c3-45f0-bb42-2b9aa3473bde" testId="e7310224-640c-46ae-2e73-7ba3861176ac" testName="textLeaveChangedTest_NonNumeric" computerName="ITSM1033954" duration="00:00:00.0028874" startTime="2012-11-09T10:06:59.5572308-06:00" endTime="2012-11-09T10:06:59.5662317-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="adf90568-90c3-45f0-bb42-2b9aa3473bde">
+    </UnitTestResult>
+    <UnitTestResult executionId="6ff1bb10-2f76-4439-a9ea-93a6f271bbd7" testId="e8bb5cd8-bc3c-2c60-2e53-498c41282682" testName="calculateTest_rateMin" computerName="ITSM1033954" duration="00:00:00.0067160" startTime="2012-11-09T10:06:59.5672318-06:00" endTime="2012-11-09T10:06:59.5802331-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ff1bb10-2f76-4439-a9ea-93a6f271bbd7">
+    </UnitTestResult>
+    <UnitTestResult executionId="eee5f5f2-bb46-42f5-bfeb-973e4f765925" testId="e9e57f24-0c94-4717-526b-b49ac8fb90fb" testName="clsChargesConstructor_Default" computerName="ITSM1033954" duration="00:00:00.0003279" startTime="2012-11-09T10:06:59.5842335-06:00" endTime="2012-11-09T10:06:59.5902341-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eee5f5f2-bb46-42f5-bfeb-973e4f765925">
+    </UnitTestResult>
+    <UnitTestResult executionId="a23c39d2-f8db-43e4-8343-597cc0e0b0cd" testId="ec7265e3-81b1-17df-a549-5c473eaebdd5" testName="btnClear_ClickTest" computerName="ITSM1033954" duration="00:00:00.0088823" startTime="2012-11-09T10:06:59.5912342-06:00" endTime="2012-11-09T10:06:59.6062357-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a23c39d2-f8db-43e4-8343-597cc0e0b0cd">
+    </UnitTestResult>
+    <UnitTestResult executionId="0f83ace6-4b90-4e4b-b733-a600856e9283" testId="f044e7ce-e9b7-f039-4105-5cd881f28baa" testName="txtChangedOrLeaveSalePrice_NonNumericTest" computerName="ITSM1033954" duration="00:00:00.0063875" startTime="2012-11-09T10:06:59.6082359-06:00" endTime="2012-11-09T10:06:59.6212372-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f83ace6-4b90-4e4b-b733-a600856e9283">
+    </UnitTestResult>
+    <UnitTestResult executionId="e52bc529-350b-4b26-a530-2c5e513d0d24" testId="f3995e10-0f0e-0072-ebba-5cc4aa6e8c6a" testName="hsbYearsInterestRate_Years" computerName="ITSM1033954" duration="00:00:00.0090180" startTime="2012-11-09T10:06:59.6232374-06:00" endTime="2012-11-09T10:06:59.6392390-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e52bc529-350b-4b26-a530-2c5e513d0d24">
+    </UnitTestResult>
+    <UnitTestResult executionId="c70e7976-9ff1-48dc-a35a-a9a364af9a4a" testId="f5e539bb-191e-2c18-e7c9-abe35728d6a4" testName="txtSelectAllTradeIn_EnterTest" computerName="ITSM1033954" duration="00:00:00.0087302" startTime="2012-11-09T10:06:59.6432394-06:00" endTime="2012-11-09T10:06:59.6612412-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c70e7976-9ff1-48dc-a35a-a9a364af9a4a">
+    </UnitTestResult>
+    <UnitTestResult executionId="ef043b77-10ed-4fd9-bb88-81cc7b4f88bb" testId="fa8c2ce7-c1b4-4f04-a1e9-f63fe05d2d18" testName="calculateTest_rateMax" computerName="ITSM1033954" duration="00:00:00.0072559" startTime="2012-11-09T10:06:59.6652416-06:00" endTime="2012-11-09T10:06:59.6792430-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef043b77-10ed-4fd9-bb88-81cc7b4f88bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="2fe61575-06f8-41da-880b-1b6bcedca875" testId="fb655678-719d-c498-3c6f-d378ca9161c3" testName="txtChangedOrLeave_NumericTest" computerName="ITSM1033954" duration="00:00:00.0066106" startTime="2012-11-09T10:06:59.6802431-06:00" endTime="2012-11-09T10:06:59.6942445-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fe61575-06f8-41da-880b-1b6bcedca875">
+    </UnitTestResult>
+  </Results>
+</TestRun>

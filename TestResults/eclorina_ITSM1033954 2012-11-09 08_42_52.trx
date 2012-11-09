@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="33919b76-c381-4699-905a-b1cc46e0866c" name="eclorina@ITSM1033954 2012-11-09 08:42:52" runUser="ACADEMIC\eclorina" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6f5894d-bf36-4e2e-b51c-eaefe52a5be0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="eclorina_ITSM1033954 2012-11-09 08_42_52">
+      <DeploymentItem filename="C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\bin\Debug\NETEdwardClorina.exe" />
+      <DeploymentItem filename="C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\BusinessTier\bin\Debug\BusinessTier.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-09T08:42:52.7694598-06:00" queuing="2012-11-09T08:42:52.8154598-06:00" start="2012-11-09T08:42:52.8224598-06:00" finish="2012-11-09T08:42:53.6854598-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="readFiles_Interior" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="2d782757-5b4c-948a-a178-65a1ee0cc3e9">
+      <Execution id="ee7639ae-556b-49d8-818b-903349bf6b77" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmCarWashTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="readFiles_Interior" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2d782757-5b4c-948a-a178-65a1ee0cc3e9" executionId="ee7639ae-556b-49d8-818b-903349bf6b77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ee7639ae-556b-49d8-818b-903349bf6b77" testId="2d782757-5b4c-948a-a178-65a1ee0cc3e9" testName="readFiles_Interior" computerName="ITSM1033954" duration="00:00:00.1017726" startTime="2012-11-09T08:42:52.8414598-06:00" endTime="2012-11-09T08:42:53.1574598-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee7639ae-556b-49d8-818b-903349bf6b77">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EdwardClorinaTest.frmCarWashTest.readFiles_Interior threw exception: 
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '3' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex</Message>
+          <StackTrace>    at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at EdwardClorinaTest.frmCarWashTest.readFiles_Interior() in C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\EdwardClorinaTest\frmCarWashTest.vb:line 70
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

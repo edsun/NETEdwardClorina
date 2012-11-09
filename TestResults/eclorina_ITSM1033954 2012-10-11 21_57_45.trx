@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="34c82fbc-efa7-4305-b4a9-2fa7312a3f1a" name="eclorina@ITSM1033954 2012-10-11 21:57:45" runUser="ACADEMIC\eclorina" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6f5894d-bf36-4e2e-b51c-eaefe52a5be0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="eclorina_ITSM1033954 2012-10-11 21_57_45">
+      <DeploymentItem filename="C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\bin\Debug\NETEdwardClorina.exe" />
+      <DeploymentItem filename="C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\BusinessTier\bin\Debug\BusinessTier.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-11T21:57:45.2590541-05:00" queuing="2012-10-11T21:57:47.7381959-05:00" start="2012-10-11T21:57:47.8011995-05:00" finish="2012-10-11T21:57:48.1352186-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="mdecMaterialsTest" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="d78a36a3-2055-f2af-fc61-74bb739f5eff">
+      <Execution id="f299d3ea-5abc-46c8-8cce-75e72648e35c" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.clsServiceTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="mdecMaterialsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d78a36a3-2055-f2af-fc61-74bb739f5eff" executionId="f299d3ea-5abc-46c8-8cce-75e72648e35c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f299d3ea-5abc-46c8-8cce-75e72648e35c" testId="d78a36a3-2055-f2af-fc61-74bb739f5eff" testName="mdecMaterialsTest" computerName="ITSM1033954" duration="00:00:00.0190452" startTime="2012-10-11T21:57:47.8122001-05:00" endTime="2012-10-11T21:57:48.0972164-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f299d3ea-5abc-46c8-8cce-75e72648e35c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

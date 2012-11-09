@@ -1,0 +1,423 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EdwardClorinaTest
+</name>
+</assembly>
+<members>
+<member name="P:EdwardClorinaTest.frmCarWashTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_Interior">
+	<summary>
+A test for readFiles to check for proper reading of Interior.txt
+</summary>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_Exterior">
+	<summary>
+A test for readFiles to check for proper reading of Exterior.txt
+</summary>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_FragDesc">
+	<summary>
+ A test for readFiles to check for proper reading of FragDesc.txt
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_FragPrices">
+	<summary>
+ A test for readFiles to check for proper reading of FragPrices.txt
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_PkgDesc">
+	<summary>
+ A test for readFiles to check for proper reading of PkgDesc.txt
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_PkgPrices">
+	<summary>
+ A test for readFiles to check for proper reading of PkgPrices.txt
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.resetFragTest">
+	<summary>
+A test for resetFrag
+</summary>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.getFragIndexTest">
+	<summary>
+A test for getFragIndex
+</summary>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.frmCarWash_LoadTest">
+	<summary>
+A test for frmCarWash_Load
+</summary>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.cbo_SelectedIndexChangedTest">
+	<summary>
+A test for cbo_SelectedIndexChanged
+</summary>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.btnClear_ClickTest">
+	<summary>
+A test for btnClear_Click
+</summary>
+</member><member name="T:EdwardClorinaTest.frmCarWashTest">
+	<summary>
+This is a test class for frmCarWashTest and is intended
+to contain all frmCarWashTest Unit Tests
+</summary>
+</member><member name="P:EdwardClorinaTest.frmEstimateTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.radChangedPearlized_CheckedChangedTest">
+	<summary>
+A test for radChanged_CheckedChanged
+ Checks for the Pearlized Radio Button to be checked
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.radChangedStandard_CheckedChangedTest">
+	<summary>
+A test for radChanged_CheckedChanged
+ Checks to see if the Standard radio button is checked
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.radChangedCustomDetail_CheckedChangedTest">
+	<summary>
+A test for radChanged_CheckedChanged
+ Checks to see if the Custom Detail radio button is checked
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.chkChangedNone_CheckedChangedTest">
+	<summary>
+A test for chkChanged_CheckedChanged
+Checks to see if no check boxes are checked
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.chkChangedStereo_CheckedChangedTest">
+	<summary>
+A test for chkChanged_CheckedChanged
+Checks to see if the Stereo System checkbox is checked
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.chkChangedLeather_CheckedChangedTest">
+	<summary>
+A test for chkChanged_CheckedChanged
+Checks to see if the Leather Interior checkbox is checked
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.chkChangedCompNav_CheckedChangedTest">
+	<summary>
+A test for chkChanged_CheckedChanged
+Checks to see if the Computer Navigation checkbox is checked
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.chkChangedAll_CheckedChangedTest">
+	<summary>
+A test for chkChanged_CheckedChanged
+Checks to see if all Checkboxes are checked
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.chkChangedStereoLeather_CheckedChangedTest">
+	<summary>
+A test for chkChanged_CheckedChanged
+Checks to see if Stereo and Leather Checkboxs are checked
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.chkChangedStereoCompNav_CheckedChangedTest">
+	<summary>
+A test for chkChanged_CheckedChanged
+Checks to see if Stereo and Comp Nav checkboxes are checked
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.chkChangedLeatherCompNav_CheckedChangedTest">
+	<summary>
+A test for chkChanged_CheckedChanged
+Checks to see if Leather and Comp Nav are Checked 
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.txtSelectAllCustomerName_EnterTest">
+	<summary>
+A test for txtSelectAll_Enter
+Checks to see if all the text in the txtCustomerName textBox was selected.
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.txtSelectAllSalePrice_EnterTest">
+	<summary>
+A test for txtSelectAll_Enter
+Checks if all the text in txtSalePrice was selected
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.txtSelectAllTradeIn_EnterTest">
+	<summary>
+A test for txtSelectAll_Enter
+Checks if all the text in txtTradeIn was selected
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.txtChangedOrLeaveSalePrice_NonNumericTest">
+	<summary>
+A test for txtChangedLeave_LeaveOrTextChanged
+Checks the Sale Price textbox for non-numeric value, which will result in btnCalculate being Disabled (False)
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.txtChangedOrLeaveTradeIn_NonNumericTest">
+	<summary>
+A test for txtChangedLeave_LeaveOrTextChanged
+Checks the Trade In textbox for non-numeric value, which will result in btnCalculate being Disabled (False)
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.txtChangedOrLeave_NumericTest">
+	<summary>
+A test for txtChangedLeave_LeaveOrTextChanged
+Checks the Sale Price and Trade in textbox for a numeric value, 
+ which will result in btnCalculate being Enabled(True)
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.txtChangedOrLeave_NumericEmptyTest">
+	<summary>
+A test for txtChangedLeave_LeaveOrTextChanged
+Checks the Sale Price and Trade in textbox for a numeric value and an empty textbox,
+Which will result in the btnCalculate button being Disabled (False)
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.btnCalculate_AllTest">
+	<summary>
+A test for the Calculate context menu item
+Checks for proper calculation if all values are entered.
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.btnCalculate_NoTradeInTest">
+	<summary>
+A test for the Calculate context menu item
+Checks for proper calculation if all values with no trade in are entered.
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.btnCalculate_NoAccessoriesTest">
+	<summary>
+A test for the Calculate context menu item
+Checks for proper calculation if all values with no accessories are selected.
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.btnCalculate_HigherTradeInTest">
+	<summary>
+A test for the Calculate context menu item
+Checks for proper calculation if all values with a greater trade in value than total cost.
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.btnCalculate_MultipleTest">
+	<summary>
+A test for the Calculate context menu item
+Checks for proper calculation if the there are multiple calculations
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.btnClear_ClickTest">
+	<summary>
+A test for the Clear context menu item
+Concatenate all text in the textboxs and make sure they are empty
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.quoteEnabledTrue_Test">
+	<summary>
+ A test for Private Sub Procedure Quote, to see if proper boolean value is set when passed value is True
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.quoteEnabledFalse_Test">
+	<summary>
+ A test for Private Sub Procedure Quote, to see if proper boolean value is set when passed value is False
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.clearEnabledTrue_Test">
+	<summary>
+ A Test for Private Sub Procedure clear, to see if proper boolean value is set when passed value is True
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.clearEnabledFalse_Test">
+	<summary>
+ A Test for Private Sub Procedure clear, to see if proper boolean value is set when passed value is False
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.calculateTest_rateMax">
+	<summary>
+A test for calculate to test for proper calculation when rate is maximum.
+</summary>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.calculateTest_rateMin">
+	<summary>
+ A test for calculate to test for proper calculation when rate is minimum.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.calculateTest_yearsMax">
+	<summary>
+ A test for calculate to test for proper calculation when years is maximum.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.calculateTest_yearsMin">
+	<summary>
+ A test for calculate to test for proper calculation when years is minimum.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.calculateTest_noAmountDue">
+	<summary>
+ A test for calculate to test for proper calculation when amount due is 0.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.calculateTest">
+	<summary>
+ A test for calculate to test for proper calculation.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.enableFinanceTest_TrueBoolean">
+	<summary>
+ A test for enableFinance to test if the groupbox was enabled.
+ In turn check if the years, and interest rate were set properly.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.enableFinanceTest_TrueYears">
+	<summary>
+ A test for enableFinance to test if the groupbox was enabled and for the proper years.
+ In turn check if the years, and interest rate were set properly.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.enableFinanceTest_TrueRate">
+	<summary>
+ A test for enableFinance to test if the groupbox was enabled and interest rate was set properly.
+ In turn check if the years, and interest rate were set properly.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.enableFinanceTest_False">
+	<summary>
+ A test for enableFinance to test if the groupbox was not enabled.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.hsbYearsInterestRate_Years">
+	<summary>
+ A test for hsbYearsInterestRate_ValueChanged, testing for proper value output for years.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.hsbYearsInterestRate_Rate">
+	<summary>
+ A test for hsbYearsInterestRate_ValueChanged, testing for proper value output for interest rate.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.AcceptQuoteToolStripMenuItem_Test">
+	<summary>
+ A test for AcceptQuoteToolStripMenuItem_Click, checking for 2 quotes of the same value.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmEstimateTest.SummaryToolStripMenuItem_Test">
+	<summary>
+ A test for SummaryToolStripMenuItem_Click, checking for 2 quotes of the same value's average.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EdwardClorinaTest.frmEstimateTest">
+	<summary>
+This is a test class for frmEstimateTest and is intended
+to contain all frmEstimateTest Unit Tests
+</summary>
+</member><member name="P:EdwardClorinaTest.frmBaseTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:EdwardClorinaTest.frmBaseTest.sendMessageTest">
+	<summary>
+A test for sendMessage
+</summary>
+</member><member name="T:EdwardClorinaTest.frmBaseTest">
+	<summary>
+This is a test class for frmBaseTest and is intended
+to contain all frmBaseTest Unit Tests
+</summary>
+</member><member name="P:EdwardClorinaTest.frmSummaryTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:EdwardClorinaTest.frmSummaryTest.frmSummary_LoadTest">
+	<summary>
+A test for frmSummary_Load
+</summary>
+</member><member name="T:EdwardClorinaTest.frmSummaryTest">
+	<summary>
+This is a test class for frmSummaryTest and is intended
+to contain all frmSummaryTest Unit Tests
+</summary>
+</member><member name="P:EdwardClorinaTest.clsServiceTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:EdwardClorinaTest.clsServiceTest.mdecMaterialsTest">
+	<summary>
+A test for mdecMaterials
+</summary>
+</member><member name="M:EdwardClorinaTest.clsServiceTest.mdecPartsTest">
+	<summary>
+A test for mdecParts
+</summary>
+</member><member name="M:EdwardClorinaTest.clsServiceTest.mdecPriceTest">
+	<summary>
+A test for mdecPrice
+</summary>
+</member><member name="M:EdwardClorinaTest.clsServiceTest.clsServiceConstructorTest_Default">
+	<summary>
+A test for clsService Constructor checking for the default constructor.
+</summary>
+</member><member name="M:EdwardClorinaTest.clsServiceTest.clsServiceConstructorTest_Parameterized">
+	<summary>
+A test for clsService Constructor for the paramterized
+</summary>
+</member><member name="M:EdwardClorinaTest.clsServiceTest.calcAmountTest">
+	<summary>
+A test for calcAmount
+</summary>
+</member><member name="M:EdwardClorinaTest.clsServiceTest.averageContractTest">
+	<summary>
+A test for averageContract
+</summary>
+</member><member name="T:EdwardClorinaTest.clsServiceTest">
+	<summary>
+This is a test class for clsServiceTest and is intended
+to contain all clsServiceTest Unit Tests
+</summary>
+</member><member name="P:EdwardClorinaTest.clsChargesTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:EdwardClorinaTest.clsChargesTest.getChargesTest">
+	<summary>
+A test for getCharges
+</summary>
+</member><member name="M:EdwardClorinaTest.clsChargesTest.getTaxesTest">
+	<summary>
+A test for getTaxes
+</summary>
+</member><member name="M:EdwardClorinaTest.clsChargesTest.getTotalTest">
+	<summary>
+A test for getTotal
+</summary>
+</member><member name="M:EdwardClorinaTest.clsChargesTest.clsChargesConstructor_Default">
+	<summary>
+A test for clsCharges Constructor, default test
+</summary>
+</member><member name="M:EdwardClorinaTest.clsChargesTest.clsChargesConstructor_Parameterized">
+	<summary>
+A test for clsCharges Constructor, Parameterized test
+</summary>
+</member><member name="M:EdwardClorinaTest.clsChargesTest.calculateTest">
+	<summary>
+A test for calculate
+</summary>
+</member><member name="T:EdwardClorinaTest.clsChargesTest">
+	<summary>
+This is a test class for clsChargesTest and is intended
+to contain all clsChargesTest Unit Tests
+</summary>
+</member><member name="P:EdwardClorinaTest.frmServiceTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:EdwardClorinaTest.frmServiceTest.textLeaveChangedTest_NonNumeric">
+	<summary>
+A test for textLeaveChanged
+</summary>
+</member><member name="M:EdwardClorinaTest.frmServiceTest.textLeaveChangedTest_Numeric">
+	<summary>
+A test for textLeaveChanged
+</summary>
+</member><member name="M:EdwardClorinaTest.frmServiceTest.textEnteredTest">
+	<summary>
+A test for textEntered
+</summary>
+</member><member name="M:EdwardClorinaTest.frmServiceTest.CalculateToolStripMenuItem_ClickTest">
+	<summary>
+A test for CalculateToolStripMenuItem_Click
+</summary>
+</member><member name="M:EdwardClorinaTest.frmServiceTest.ClearToolStripMenuItem_ClickTest">
+	<summary>
+A test for ClearToolStripMenuItem_Click
+</summary>
+</member><member name="T:EdwardClorinaTest.frmServiceTest">
+	<summary>
+This is a test class for frmServiceTest and is intended
+to contain all frmServiceTest Unit Tests
+</summary>
+</member>
+</members>
+</doc>

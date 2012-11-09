@@ -1,0 +1,330 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NETEdwardClorina
+</name>
+</assembly>
+<members>
+<member name="M:NETEdwardClorina.frmCarWash.readFiles(System.String)">
+	<summary>
+ Reads in a file and places it into the proper array or combobox.
+ </summary>
+	<param name="strFileName">Current file to be read in</param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmCarWash.resetFrag">
+	<summary>
+ Searches for the description Pine in the cbo
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmCarWash.getFragIndex(System.String)">
+	<summary>
+ Searches through the fragrance structure for the passed selected fragrance
+ </summary>
+	<param name="strSelectedFrag">The Fragrance description to find</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmCarWash.frmCarWash_Load(System.Object,System.EventArgs)">
+	<summary>
+ Loops through all the files and loads them into the proper arrays/comboboxs.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmCarWash.cbo_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Shared combobox procedure to handle index changes for both.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmCarWash.btnClear_Click(System.Object,System.EventArgs)">
+	<summary>
+ Initialize the comboboxes
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmSummary.frmSummary_Load(System.Object,System.EventArgs)">
+	<summary>
+ Once the form loads, pull the values for the Service contracts and place them into the label fields.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmEstimate.sendMessage(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon,System.Windows.Forms.MessageBoxDefaultButton)">
+	<summary>
+ Used to suppress message boxs during testing.
+ </summary>
+	<param name="text"></param>
+	<param name="caption"></param>
+	<param name="buttons"></param>
+	<param name="icon"></param>
+	<param name="defaultButton"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmEstimate.quote(System.Boolean)">
+	<summary>
+ Enable/Disable the Accept Quote context menu item based on the passed parameter.
+ </summary>
+	<param name="accept_quote"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmEstimate.clear(System.Boolean)">
+	<summary>
+ Enable/Disable the Clear And Calculate context menu item based on the passed parameter.
+ </summary>
+	<param name="enable"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmEstimate.calculate">
+	<summary>
+ Calculate the monthly payment using the built-in function "PMT"
+ </summary>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmEstimate.enableFinance(System.Boolean)">
+	<summary>
+ Enable/Disable the Finance groupbox based on the value of the passed parameter,
+ Also determine if any finance calculations have taken place.
+ </summary>
+	<param name="enable"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmEstimate.radChanged_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Check which radio button is currently checked off
+ Will adjust the current mdecFinish value
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmEstimate.chkChanged_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Shared event for all checkboxes.
+ Changes the module level variable appropriately
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmEstimate.txtSelectAll_Enter(System.Object,System.EventArgs)">
+	<summary>
+ Select all the text when the user enters the textbox.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmEstimate.txtChangedOrLeave(System.Object,System.EventArgs)">
+	<summary>
+ Evaluate the text in the textbox after changing the textbox contents
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmEstimate.CalculateToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Calculate the totals for the current estimate.
+ Using the approriate label, display out calculated results.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmEstimate.ClearToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Clears out all labels and textfields
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmEstimate.AcceptQuoteToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Accumulates data pertaining to the Amount Due and Number of Quotes for summary purposes.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmEstimate.SummaryToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Displays the summary of accepted quotes for the current session.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmEstimate.hsbYearsInterestRate_ValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ Shared event procedure to handle value changes in HScrollBars
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmBase.sendMessage(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon,System.Windows.Forms.MessageBoxDefaultButton)">
+	<summary>
+ Used to suppress message boxs during testing.
+ </summary>
+	<param name="text"></param>
+	<param name="caption"></param>
+	<param name="buttons"></param>
+	<param name="icon"></param>
+	<param name="defaultButton"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmBase.btnExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ Close the Form
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmFrame.tsbTile_Click(System.Object,System.EventArgs)">
+	<summary>
+ Tile all open forms horizontally
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmFrame.tsbLayer_Click(System.Object,System.EventArgs)">
+	<summary>
+ Tile all open forms vertically
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmFrame.tsbCascade_Click(System.Object,System.EventArgs)">
+	<summary>
+ Cascade all open forms
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmFrame.tsbExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ Close the Frame
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmFrame.EstimateToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Open the estimates form
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmFrame.tssbService_Click(System.Object,System.EventArgs)">
+	<summary>
+ Open the Service form
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.Exterior">
+	<summary>
+  Looks up a localized string similar to Hand Wash
+Hand Wax
+Check Engine Fluid
+Detail Engine Compartment
+.
+</summary>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.FragDesc">
+	<summary>
+  Looks up a localized string similar to Hawaiian Mist
+Baby Powder
+Pine
+Country Floral
+Pina Colada
+Vanilla.
+</summary>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.FragPrices">
+	<summary>
+  Looks up a localized string similar to 2.75
+1.50
+0.00
+2.25
+0.75
+2.00.
+</summary>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.Interior">
+	<summary>
+  Looks up a localized string similar to Fragrance
+Shampoo Carpets
+Interior Protection Coat
+Shampoo Upholstery
+.
+</summary>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.PkgDesc">
+	<summary>
+  Looks up a localized string similar to Standard
+Deluxe
+Executive
+Luxury.
+</summary>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.PkgPrices">
+	<summary>
+  Looks up a localized string similar to 7.50
+15.00
+35.00
+55.00
+.
+</summary>
+</member><member name="T:NETEdwardClorina.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:NETEdwardClorina.frmService.checkText(System.String)">
+	<summary>
+ Checks if the value in the textbox is numeric
+ </summary>
+	<param name="strText"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmService.enableCalc(System.Windows.Forms.TextBox)">
+	<summary>
+ Check if all 3 textboxes(That should contain numeric data) does contain numeric data
+ </summary>
+	<param name="txtBox"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmService.textLeaveChanged(System.Object,System.EventArgs)">
+	<summary>
+ Shared event to handle textbox code
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmService.textEntered(System.Object,System.EventArgs)">
+	<summary>
+ Select all the text when the user enters a textbox
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmService.CalculateToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Create an instance of the clsService class, passing the proper values inputted by the user.
+ Display the values in the labels and enable the summary form.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmService.SummaryToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display the Summary form
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmService.ClearToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Clear all Textboxs and labels
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

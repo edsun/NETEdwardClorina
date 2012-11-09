@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ff1af6e7-6af4-434c-ab24-1b0b2c39ac8b" name="eclorina@ITSM1033954 2012-10-04 22:51:48" runUser="ACADEMIC\eclorina" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6f5894d-bf36-4e2e-b51c-eaefe52a5be0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="eclorina_ITSM1033954 2012-10-04 22_51_48">
+      <DeploymentItem filename="C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\bin\Debug\NETEdwardClorina.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-04T22:51:48.5634009-05:00" queuing="2012-10-04T22:51:49.4764531-05:00" start="2012-10-04T22:51:49.6024603-05:00" finish="2012-10-04T22:52:55.8802512-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ITSM1033954" outcome="Warning" timestamp="2012-10-04T22:51:48.5904024-05:00">
+        <Text>Deployment is currently disabled. The deployment item 'NETEdwardClorina.exe' on test 'EdwardClorinaTest.frmEstimateTest.calculateTest_rateMax' was not deployed.</Text>
+      </RunInfo>
+      <RunInfo computerName="ITSM1033954" outcome="Error" timestamp="2012-10-04T22:52:55.8782511-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="calculateTest_rateMax" storage="c:\users\eclorina\dropbox\public\term3\.net programming\netedwardclorina\edwardclorinatest\bin\debug\edwardclorinatest.dll" id="fa8c2ce7-c1b4-4f04-a1e9-f63fe05d2d18">
+      <DeploymentItems>
+        <DeploymentItem filename="NETEdwardClorina.exe" />
+      </DeploymentItems>
+      <Execution id="612b5fdf-c50f-4845-9c7d-74930602b0f4" />
+      <TestMethod codeBase="C:/Users/eclorina/Dropbox/Public/Term3/.NET Programming/NETEdwardClorina/EdwardClorinaTest/bin/Debug/EdwardClorinaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EdwardClorinaTest.frmEstimateTest, EdwardClorinaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="calculateTest_rateMax" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fa8c2ce7-c1b4-4f04-a1e9-f63fe05d2d18" executionId="612b5fdf-c50f-4845-9c7d-74930602b0f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="612b5fdf-c50f-4845-9c7d-74930602b0f4" testId="fa8c2ce7-c1b4-4f04-a1e9-f63fe05d2d18" testName="calculateTest_rateMax" computerName="ITSM1033954" duration="00:01:06.1577840" startTime="2012-10-04T22:51:49.7224672-05:00" endTime="2012-10-04T22:52:55.8802512-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="612b5fdf-c50f-4845-9c7d-74930602b0f4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

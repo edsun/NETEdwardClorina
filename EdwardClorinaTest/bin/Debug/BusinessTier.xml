@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BusinessTier
+</name>
+</assembly>
+<members>
+<member name="P:BusinessTier.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:BusinessTier.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:BusinessTier.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:BusinessTier.clsService.#ctor">
+	<summary>
+ Default Constructor
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BusinessTier.clsService.#ctor(System.Decimal,System.Decimal,System.Decimal)">
+	<summary>
+ Parameterized Constructor
+ </summary>
+	<param name="decPrice"></param>
+	<param name="decParts"></param>
+	<param name="decMaterials"></param>
+	<remarks></remarks>
+</member><member name="M:BusinessTier.clsService.calcAmount">
+	<summary>
+ calcAmount, used to accumuluate shared variables and return total price
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BusinessTier.clsService.averageContract">
+	<summary>
+ averageContract, used to return the average cost of a Service Contract
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BusinessTier.clsCharges.getCharges">
+	<summary>
+ Return the charges
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BusinessTier.clsCharges.getTaxes">
+	<summary>
+ Return the taxes
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BusinessTier.clsCharges.getTotal">
+	<summary>
+ Return the total
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BusinessTier.clsCharges.#ctor">
+	<summary>
+ Default constructor
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BusinessTier.clsCharges.#ctor(System.Decimal,System.Decimal)">
+	<summary>
+ Parameterized Constructor
+ </summary>
+	<param name="decPackagePrice"></param>
+	<param name="decFragrancePrice"></param>
+	<remarks></remarks>
+</member><member name="M:BusinessTier.clsCharges.calculate">
+	<summary>
+ Calculate the price before taxes, the total taxes, and the total (charges + taxes)
+ placing them into the corresponding private properties
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
