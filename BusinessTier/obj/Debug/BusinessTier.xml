@@ -6,7 +6,25 @@ BusinessTier
 </name>
 </assembly>
 <members>
-<member name="P:BusinessTier.My.Resources.Resources.ResourceManager">
+<member name="M:BusinessTier.clsCommission.#ctor">
+	<summary>
+ Default Constructor for clsCommission class
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BusinessTier.clsCommission.#ctor(System.Decimal,System.Decimal)">
+	<summary>
+ Parameterized constructor for the clsCommission class
+ </summary>
+	<param name="decCostPrice">our value to initiliaze our cost price</param>
+	<param name="decRetailPrice">our value to initialize our retail price</param>
+	<remarks></remarks>
+</member><member name="M:BusinessTier.clsCommission.calcCommission">
+	<summary>
+ Calculates the commission by calculating the difference between retail and cost price and applying the commission rate.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BusinessTier.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>

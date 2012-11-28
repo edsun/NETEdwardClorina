@@ -48,3 +48,9 @@ C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwa
 C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmService.resources
 C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmSummary.resources
 C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmCarWash.resources
+C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\bin\Debug\DataTier.dll
+C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\bin\Debug\DataTier.pdb
+C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\bin\Debug\DataTier.xml
+C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmCommission.resources
+C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmVBAuto.resources
+C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmStockMaintenance.resources

@@ -6,65 +6,7 @@ EdwardClorinaTest
 </name>
 </assembly>
 <members>
-<member name="P:EdwardClorinaTest.frmCarWashTest.TestContext">
-	<summary>
-Gets or sets the test context which provides
-information about and functionality for the current test run.
-</summary>
-</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_Interior">
-	<summary>
-A test for readFiles to check for proper reading of Interior.txt
-</summary>
-</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_Exterior">
-	<summary>
-A test for readFiles to check for proper reading of Exterior.txt
-</summary>
-</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_FragDesc">
-	<summary>
- A test for readFiles to check for proper reading of FragDesc.txt
- </summary>
-	<remarks></remarks>
-</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_FragPrices">
-	<summary>
- A test for readFiles to check for proper reading of FragPrices.txt
- </summary>
-	<remarks></remarks>
-</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_PkgDesc">
-	<summary>
- A test for readFiles to check for proper reading of PkgDesc.txt
- </summary>
-	<remarks></remarks>
-</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_PkgPrices">
-	<summary>
- A test for readFiles to check for proper reading of PkgPrices.txt
- </summary>
-	<remarks></remarks>
-</member><member name="M:EdwardClorinaTest.frmCarWashTest.resetFragTest">
-	<summary>
-A test for resetFrag
-</summary>
-</member><member name="M:EdwardClorinaTest.frmCarWashTest.getFragIndexTest">
-	<summary>
-A test for getFragIndex
-</summary>
-</member><member name="M:EdwardClorinaTest.frmCarWashTest.frmCarWash_LoadTest">
-	<summary>
-A test for frmCarWash_Load
-</summary>
-</member><member name="M:EdwardClorinaTest.frmCarWashTest.cbo_SelectedIndexChangedTest">
-	<summary>
-A test for cbo_SelectedIndexChanged
-</summary>
-</member><member name="M:EdwardClorinaTest.frmCarWashTest.btnClear_ClickTest">
-	<summary>
-A test for btnClear_Click
-</summary>
-</member><member name="T:EdwardClorinaTest.frmCarWashTest">
-	<summary>
-This is a test class for frmCarWashTest and is intended
-to contain all frmCarWashTest Unit Tests
-</summary>
-</member><member name="P:EdwardClorinaTest.frmEstimateTest.TestContext">
+<member name="P:EdwardClorinaTest.frmEstimateTest.TestContext">
 	<summary>
 Gets or sets the test context which provides
 information about and functionality for the current test run.
@@ -387,6 +329,64 @@ A test for calculate
 	<summary>
 This is a test class for clsChargesTest and is intended
 to contain all clsChargesTest Unit Tests
+</summary>
+</member><member name="P:EdwardClorinaTest.frmCarWashTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_Interior">
+	<summary>
+A test for readFiles to check for proper reading of Interior.txt
+</summary>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_Exterior">
+	<summary>
+A test for readFiles to check for proper reading of Exterior.txt
+</summary>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_FragDesc">
+	<summary>
+ A test for readFiles to check for proper reading of FragDesc.txt
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_FragPrices">
+	<summary>
+ A test for readFiles to check for proper reading of FragPrices.txt
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_PkgDesc">
+	<summary>
+ A test for readFiles to check for proper reading of PkgDesc.txt
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.readFiles_PkgPrices">
+	<summary>
+ A test for readFiles to check for proper reading of PkgPrices.txt
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.resetFragTest">
+	<summary>
+A test for resetFrag
+</summary>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.getFragIndexTest">
+	<summary>
+A test for getFragIndex
+</summary>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.frmCarWash_LoadTest">
+	<summary>
+A test for frmCarWash_Load
+</summary>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.cbo_SelectedIndexChangedTest">
+	<summary>
+A test for cbo_SelectedIndexChanged
+</summary>
+</member><member name="M:EdwardClorinaTest.frmCarWashTest.btnClear_ClickTest">
+	<summary>
+A test for btnClear_Click
+</summary>
+</member><member name="T:EdwardClorinaTest.frmCarWashTest">
+	<summary>
+This is a test class for frmCarWashTest and is intended
+to contain all frmCarWashTest Unit Tests
 </summary>
 </member><member name="P:EdwardClorinaTest.frmServiceTest.TestContext">
 	<summary>

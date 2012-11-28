@@ -125,6 +125,13 @@ NETEdwardClorina
 	<param name="defaultButton"></param>
 	<returns></returns>
 	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmBase.validateNumeric(System.String)">
+	<summary>
+ Validates the presence of data and a numeric value
+ </summary>
+	<param name="strValidate"></param>
+	<returns></returns>
+	<remarks></remarks>
 </member><member name="M:NETEdwardClorina.frmBase.btnExit_Click(System.Object,System.EventArgs)">
 	<summary>
  Close the Form
@@ -174,6 +181,46 @@ NETEdwardClorina
 	<param name="sender"></param>
 	<param name="e"></param>
 	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmVBAuto.refreshData(System.String)">
+	<summary>
+ Displays the record for the passed stockNo parameter
+ </summary>
+	<param name="strStockNo"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmVBAuto.bindData">
+	<summary>
+ Bind our Sales Person Info, and Stock Info controls
+ to the appropriate columns in our SalesStaff and UsedCars tables
+ </summary>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmVBAuto.btnNext_Click(System.Object,System.EventArgs)">
+	<summary>
+ Go to our next sales person
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmVBAuto.btnPrevious_Click(System.Object,System.EventArgs)">
+	<summary>
+ Go to our previous sales person
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmVBAuto.btnViewComm_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display our commissions form
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmVBAuto.cboStockNo_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Clear out the Commission label
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
 </member><member name="M:NETEdwardClorina.frmCarWash.readFiles(System.String)">
 	<summary>
  Reads in a file and places it into the proper array or combobox.
@@ -210,6 +257,49 @@ NETEdwardClorina
 </member><member name="M:NETEdwardClorina.frmCarWash.btnClear_Click(System.Object,System.EventArgs)">
 	<summary>
  Initialize the comboboxes
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmStockMaintenance.bindData">
+	<summary>
+ Bind our various controls to the form's One Car dataSet
+ </summary>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmStockMaintenance.#ctor(System.String)">
+	<summary>
+ Parameterized constructor that accepts a new Stock No
+ </summary>
+	<param name="strStockNo">New Stock No</param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmStockMaintenance.#ctor(System.String,System.String,System.String)">
+	<summary>
+ Parameterized constructor used when an existing record is found.
+ </summary>
+	<param name="strStockNo">StockNo</param>
+	<param name="strColumnName">Column Name changed</param>
+	<param name="strValue">Column value changed</param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmStockMaintenance.frmStockMaintenance_Activated(System.Object,System.EventArgs)">
+	<summary>
+ Loads when our form is activated
+ connects to the database, determines if the record is new or existing
+ based on this, will populate our controls
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmStockMaintenance.txtShared_Leave(System.Object,System.EventArgs)">
+	<summary>
+ Shared textbox event to handle when the user tabs (leaves) a textbox
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmStockMaintenance.btnUpdate_Click(System.Object,System.EventArgs)">
+	<summary>
+ Used to update the UsedCars table in the VBAutoSales database
+ with the information currently displayed
  </summary>
 	<param name="sender"></param>
 	<param name="e"></param>

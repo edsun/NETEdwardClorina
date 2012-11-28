@@ -167,7 +167,7 @@ Partial Class frmCarWash
         '
         Me.lblTaxes.AutoSize = True
         Me.lblTaxes.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTaxes.Location = New System.Drawing.Point(129, 257)
+        Me.lblTaxes.Location = New System.Drawing.Point(122, 257)
         Me.lblTaxes.Name = "lblTaxes"
         Me.lblTaxes.Size = New System.Drawing.Size(200, 16)
         Me.lblTaxes.TabIndex = 16
@@ -219,9 +219,9 @@ Partial Class frmCarWash
         Me.Controls.Add(Me.lblInterior)
         Me.Controls.Add(Me.lblCharges)
         Me.Controls.Add(Me.lblChargesOutput)
-        Me.Controls.Add(Me.lblTaxes)
         Me.Controls.Add(Me.cboDetail)
         Me.Controls.Add(Me.lblTotal)
+        Me.Controls.Add(Me.lblTaxes)
         Me.Controls.Add(Me.lblBlackBar4)
         Me.Controls.Add(Me.lstExterior)
         Me.Controls.Add(Me.lblFragrance)
@@ -241,9 +241,9 @@ Partial Class frmCarWash
         Me.Controls.SetChildIndex(Me.lstExterior, 0)
         Me.Controls.SetChildIndex(Me.lblBlackBar4, 0)
         Me.Controls.SetChildIndex(Me.lblBlackBar3, 0)
+        Me.Controls.SetChildIndex(Me.lblTaxes, 0)
         Me.Controls.SetChildIndex(Me.lblTotal, 0)
         Me.Controls.SetChildIndex(Me.cboDetail, 0)
-        Me.Controls.SetChildIndex(Me.lblTaxes, 0)
         Me.Controls.SetChildIndex(Me.lblChargesOutput, 0)
         Me.Controls.SetChildIndex(Me.lblCharges, 0)
         Me.Controls.SetChildIndex(Me.lblInterior, 0)

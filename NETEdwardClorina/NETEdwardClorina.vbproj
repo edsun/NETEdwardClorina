@@ -103,10 +103,22 @@
     <Compile Include="frmCarWash.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmCommission.Designer.vb">
+      <DependentUpon>frmCommission.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCommission.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmService.Designer.vb">
       <DependentUpon>frmService.vb</DependentUpon>
     </Compile>
     <Compile Include="frmService.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStockMaintenance.Designer.vb">
+      <DependentUpon>frmStockMaintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStockMaintenance.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmSummary.Designer.vb">
@@ -132,6 +144,12 @@
       <DependentUpon>frmEstimate.vb</DependentUpon>
     </Compile>
     <Compile Include="frmEstimate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVBAuto.Designer.vb">
+      <DependentUpon>frmVBAuto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVBAuto.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -160,6 +178,9 @@
     <EmbeddedResource Include="frmCarWash.resx">
       <DependentUpon>frmCarWash.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCommission.resx">
+      <DependentUpon>frmCommission.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEstimate.resx">
       <DependentUpon>frmEstimate.vb</DependentUpon>
     </EmbeddedResource>
@@ -169,8 +190,14 @@
     <EmbeddedResource Include="frmService.resx">
       <DependentUpon>frmService.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmStockMaintenance.resx">
+      <DependentUpon>frmStockMaintenance.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmSummary.resx">
       <DependentUpon>frmSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVBAuto.resx">
+      <DependentUpon>frmVBAuto.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -249,6 +276,10 @@
     <ProjectReference Include="..\BusinessTier\BusinessTier.vbproj">
       <Project>{594faf39-5429-4910-8c6c-f071c751fa61}</Project>
       <Name>BusinessTier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataTier\DataTier.vbproj">
+      <Project>{FAE8245D-760C-4E2E-8630-0126CDF7A221}</Project>
+      <Name>DataTier</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

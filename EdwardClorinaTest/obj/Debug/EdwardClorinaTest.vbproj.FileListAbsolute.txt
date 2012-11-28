@@ -44,3 +44,6 @@ C:\Users\edsun\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\EdwardClor
 C:\Users\edsun\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\EdwardClorinaTest\bin\Debug\BusinessTier.xml
 C:\Users\edsun\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\EdwardClorinaTest\bin\Debug\BusinessTier_Accessor.dll
 C:\Users\edsun\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\EdwardClorinaTest\bin\Debug\BusinessTier_Accessor.pdb
+C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\EdwardClorinaTest\bin\Debug\DataTier.dll
+C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\EdwardClorinaTest\bin\Debug\DataTier.pdb
+C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\EdwardClorinaTest\bin\Debug\DataTier.xml

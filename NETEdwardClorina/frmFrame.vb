@@ -112,4 +112,16 @@
         'display the form
         frmInstance.Show()
     End Sub
+
+    Private Sub CommissionToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) _
+        Handles CommissionToolStripMenuItem.Click, _
+                tssbCommission.Click
+        'create an instance of frmVBAuto called frmInstance
+        Dim frmInstance As New frmVBAuto
+        'frmInstance will behave as a child form in frmFrame
+        frmInstance.MdiParent = Me
+        'display the form
+        frmInstance.Show()
+
+    End Sub
 End Class

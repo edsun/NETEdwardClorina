@@ -1,0 +1,82 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DataTier
+</name>
+</assembly>
+<members>
+<member name="M:DataTier.clsData.connect">
+	<summary>
+ Connects to our database using our OleDBConnection object
+ </summary>
+	<remarks></remarks>
+</member><member name="M:DataTier.clsData.getSalesStaff">
+	<summary>
+ Selects all the sales staff in the SalesStaff table and fills our dataset
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:DataTier.clsData.getAllCars">
+	<summary>
+ Get all the used cars from the UsedCars table, filling our dataset and creating
+ the SQL insert, delete and update statements
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:DataTier.clsData.getOneCar(System.String)">
+	<summary>
+ Searchs the database for the passed StockNo
+ </summary>
+	<param name="strStockNo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:DataTier.clsData.getCommission">
+	<summary>
+ Grab all the commissions from the Commissions Table
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:DataTier.clsData.updateCommission(System.String,System.String,System.String,System.Decimal)">
+	<summary>
+ Add a new row to the commissions table using the passed parameters
+ </summary>
+	<param name="strSalesPersonName"></param>
+	<param name="strStockNo"></param>
+	<param name="strDescription"></param>
+	<param name="decCalcCommission"></param>
+	<remarks></remarks>
+</member><member name="M:DataTier.clsData.updateNewCar(System.String,System.Int32,System.String,System.String,System.String,System.Decimal,System.Decimal)">
+	<summary>
+ Add a new car to our UsedCars table using the passed parameters
+ </summary>
+	<param name="strStockNo"></param>
+	<param name="intManuYear"></param>
+	<param name="strDescription"></param>
+	<param name="strModel"></param>
+	<param name="strColor"></param>
+	<param name="decCostPrice"></param>
+	<param name="decRetailPrice"></param>
+	<remarks></remarks>
+</member><member name="M:DataTier.clsData.updateOneCar(System.Data.DataSet)">
+	<summary>
+ Update the database with the passed dataset
+ </summary>
+	<param name="dsOneCar"></param>
+	<remarks></remarks>
+</member><member name="P:DataTier.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DataTier.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:DataTier.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -41,6 +41,32 @@ Public Class frmBase
             Return MessageBox.Show(text, caption, buttons, icon, defaultButton)
         End If
     End Function
+
+    ''' <summary>
+    ''' Validates the presence of data and a numeric value
+    ''' </summary>
+    ''' <param name="strValidate"></param>
+    ''' <returns></returns>
+    ''' <remarks></remarks>
+    Protected Function validateNumeric(ByVal strValidate As String) As Boolean
+
+        If (strValidate.Length <= 0) Then
+            'Parameter was not greater than 0 length (Empty)
+            sendMessage("Data Must be Entered", "Validation Error")
+            Return False
+        Else
+            'Parameter was greater than 0 length
+            If (IsNumeric(strValidate)) Then
+                'Value was numeric
+                Return True
+            Else
+                'Value was not numeric
+                sendMessage("Data Must be Numeric", "Validation Error")
+                Return False
+            End If
+
+        End If
+    End Function
 #End Region
 
     ''' <summary>
