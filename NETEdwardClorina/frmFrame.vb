@@ -124,4 +124,17 @@
         frmInstance.Show()
 
     End Sub
+
+    Private Sub tssbReports_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) _
+        Handles tssbReports.Click, _
+                ReportsToolStripMenuItem.Click
+
+        'create an instance of frmVBAuto called frmInstance
+        Dim frmInstance As New frmReport
+        'frmInstance will behave as a child form in frmFrame
+        frmInstance.MdiParent = Me
+        'display the form
+        frmInstance.Show()
+
+    End Sub
 End Class

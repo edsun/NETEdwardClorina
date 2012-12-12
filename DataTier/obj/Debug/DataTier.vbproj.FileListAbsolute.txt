@@ -8,3 +8,14 @@ C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\DataTie
 C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\DataTier\obj\Debug\DataTier.dll
 C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\DataTier\obj\Debug\DataTier.xml
 C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\DataTier\obj\Debug\DataTier.pdb
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\DataTier\bin\Debug\DataTier.dll.config
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\DataTier\bin\Debug\DataTier.dll
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\DataTier\bin\Debug\DataTier.pdb
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\DataTier\bin\Debug\DataTier.xml
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\DataTier\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\DataTier\obj\Debug\DataTier.Resources.resources
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\DataTier\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\DataTier\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\DataTier\obj\Debug\DataTier.dll
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\DataTier\obj\Debug\DataTier.xml
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\DataTier\obj\Debug\DataTier.pdb

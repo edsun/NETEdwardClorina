@@ -13,6 +13,173 @@ NETEdwardClorina
 	<param name="sender"></param>
 	<param name="e"></param>
 	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmVBAuto.refreshData(System.String)">
+	<summary>
+ Displays the record for the passed stockNo parameter
+ </summary>
+	<param name="strStockNo"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmVBAuto.bindData">
+	<summary>
+ Bind our Sales Person Info, and Stock Info controls
+ to the appropriate columns in our SalesStaff and UsedCars tables
+ </summary>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmVBAuto.btnNext_Click(System.Object,System.EventArgs)">
+	<summary>
+ Go to our next sales person
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmVBAuto.btnPrevious_Click(System.Object,System.EventArgs)">
+	<summary>
+ Go to our previous sales person
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmVBAuto.btnViewComm_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display our commissions form
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmVBAuto.cboStockNo_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Clear out the Commission label
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmCarWash.readFiles(System.String)">
+	<summary>
+ Reads in a file and places it into the proper array or combobox.
+ </summary>
+	<param name="strFileName">Current file to be read in</param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmCarWash.resetFrag">
+	<summary>
+ Searches for the description Pine in the cbo
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmCarWash.getFragIndex(System.String)">
+	<summary>
+ Searches through the fragrance structure for the passed selected fragrance
+ </summary>
+	<param name="strSelectedFrag">The Fragrance description to find</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmCarWash.frmCarWash_Load(System.Object,System.EventArgs)">
+	<summary>
+ Loops through all the files and loads them into the proper arrays/comboboxs.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmCarWash.cbo_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Shared combobox procedure to handle index changes for both.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmCarWash.btnClear_Click(System.Object,System.EventArgs)">
+	<summary>
+ Initialize the comboboxes
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.Exterior">
+	<summary>
+  Looks up a localized string similar to Hand Wash
+Hand Wax
+Check Engine Fluid
+Detail Engine Compartment
+.
+</summary>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.FragDesc">
+	<summary>
+  Looks up a localized string similar to Hawaiian Mist
+Baby Powder
+Pine
+Country Floral
+Pina Colada
+Vanilla.
+</summary>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.FragPrices">
+	<summary>
+  Looks up a localized string similar to 2.75
+1.50
+0.00
+2.25
+0.75
+2.00.
+</summary>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.Interior">
+	<summary>
+  Looks up a localized string similar to Fragrance
+Shampoo Carpets
+Interior Protection Coat
+Shampoo Upholstery
+.
+</summary>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.PkgDesc">
+	<summary>
+  Looks up a localized string similar to Standard
+Deluxe
+Executive
+Luxury.
+</summary>
+</member><member name="P:NETEdwardClorina.My.Resources.Resources.PkgPrices">
+	<summary>
+  Looks up a localized string similar to 7.50
+15.00
+35.00
+55.00
+.
+</summary>
+</member><member name="T:NETEdwardClorina.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:NETEdwardClorina.frmBase.sendMessage(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon,System.Windows.Forms.MessageBoxDefaultButton)">
+	<summary>
+ Used to suppress message boxs during testing.
+ </summary>
+	<param name="text"></param>
+	<param name="caption"></param>
+	<param name="buttons"></param>
+	<param name="icon"></param>
+	<param name="defaultButton"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmBase.validateNumeric(System.String)">
+	<summary>
+ Validates the presence of data and a numeric value
+ </summary>
+	<param name="strValidate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmBase.btnExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ Close the Form
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
 </member><member name="M:NETEdwardClorina.frmEstimate.sendMessage(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon,System.Windows.Forms.MessageBoxDefaultButton)">
 	<summary>
  Used to suppress message boxs during testing.
@@ -114,31 +281,6 @@ NETEdwardClorina
 	<param name="sender"></param>
 	<param name="e"></param>
 	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmBase.sendMessage(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon,System.Windows.Forms.MessageBoxDefaultButton)">
-	<summary>
- Used to suppress message boxs during testing.
- </summary>
-	<param name="text"></param>
-	<param name="caption"></param>
-	<param name="buttons"></param>
-	<param name="icon"></param>
-	<param name="defaultButton"></param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmBase.validateNumeric(System.String)">
-	<summary>
- Validates the presence of data and a numeric value
- </summary>
-	<param name="strValidate"></param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmBase.btnExit_Click(System.Object,System.EventArgs)">
-	<summary>
- Close the Form
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
 </member><member name="M:NETEdwardClorina.frmFrame.tsbTile_Click(System.Object,System.EventArgs)">
 	<summary>
  Tile all open forms horizontally
@@ -181,191 +323,6 @@ NETEdwardClorina
 	<param name="sender"></param>
 	<param name="e"></param>
 	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmVBAuto.refreshData(System.String)">
-	<summary>
- Displays the record for the passed stockNo parameter
- </summary>
-	<param name="strStockNo"></param>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmVBAuto.bindData">
-	<summary>
- Bind our Sales Person Info, and Stock Info controls
- to the appropriate columns in our SalesStaff and UsedCars tables
- </summary>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmVBAuto.btnNext_Click(System.Object,System.EventArgs)">
-	<summary>
- Go to our next sales person
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmVBAuto.btnPrevious_Click(System.Object,System.EventArgs)">
-	<summary>
- Go to our previous sales person
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmVBAuto.btnViewComm_Click(System.Object,System.EventArgs)">
-	<summary>
- Display our commissions form
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmVBAuto.cboStockNo_SelectedIndexChanged(System.Object,System.EventArgs)">
-	<summary>
- Clear out the Commission label
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmCarWash.readFiles(System.String)">
-	<summary>
- Reads in a file and places it into the proper array or combobox.
- </summary>
-	<param name="strFileName">Current file to be read in</param>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmCarWash.resetFrag">
-	<summary>
- Searches for the description Pine in the cbo
- </summary>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmCarWash.getFragIndex(System.String)">
-	<summary>
- Searches through the fragrance structure for the passed selected fragrance
- </summary>
-	<param name="strSelectedFrag">The Fragrance description to find</param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmCarWash.frmCarWash_Load(System.Object,System.EventArgs)">
-	<summary>
- Loops through all the files and loads them into the proper arrays/comboboxs.
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmCarWash.cbo_SelectedIndexChanged(System.Object,System.EventArgs)">
-	<summary>
- Shared combobox procedure to handle index changes for both.
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmCarWash.btnClear_Click(System.Object,System.EventArgs)">
-	<summary>
- Initialize the comboboxes
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmStockMaintenance.bindData">
-	<summary>
- Bind our various controls to the form's One Car dataSet
- </summary>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmStockMaintenance.#ctor(System.String)">
-	<summary>
- Parameterized constructor that accepts a new Stock No
- </summary>
-	<param name="strStockNo">New Stock No</param>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmStockMaintenance.#ctor(System.String,System.String,System.String)">
-	<summary>
- Parameterized constructor used when an existing record is found.
- </summary>
-	<param name="strStockNo">StockNo</param>
-	<param name="strColumnName">Column Name changed</param>
-	<param name="strValue">Column value changed</param>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmStockMaintenance.frmStockMaintenance_Activated(System.Object,System.EventArgs)">
-	<summary>
- Loads when our form is activated
- connects to the database, determines if the record is new or existing
- based on this, will populate our controls
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmStockMaintenance.txtShared_Leave(System.Object,System.EventArgs)">
-	<summary>
- Shared textbox event to handle when the user tabs (leaves) a textbox
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
-</member><member name="M:NETEdwardClorina.frmStockMaintenance.btnUpdate_Click(System.Object,System.EventArgs)">
-	<summary>
- Used to update the UsedCars table in the VBAutoSales database
- with the information currently displayed
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
-</member><member name="P:NETEdwardClorina.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:NETEdwardClorina.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="P:NETEdwardClorina.My.Resources.Resources.Exterior">
-	<summary>
-  Looks up a localized string similar to Hand Wash
-Hand Wax
-Check Engine Fluid
-Detail Engine Compartment
-.
-</summary>
-</member><member name="P:NETEdwardClorina.My.Resources.Resources.FragDesc">
-	<summary>
-  Looks up a localized string similar to Hawaiian Mist
-Baby Powder
-Pine
-Country Floral
-Pina Colada
-Vanilla.
-</summary>
-</member><member name="P:NETEdwardClorina.My.Resources.Resources.FragPrices">
-	<summary>
-  Looks up a localized string similar to 2.75
-1.50
-0.00
-2.25
-0.75
-2.00.
-</summary>
-</member><member name="P:NETEdwardClorina.My.Resources.Resources.Interior">
-	<summary>
-  Looks up a localized string similar to Fragrance
-Shampoo Carpets
-Interior Protection Coat
-Shampoo Upholstery
-.
-</summary>
-</member><member name="P:NETEdwardClorina.My.Resources.Resources.PkgDesc">
-	<summary>
-  Looks up a localized string similar to Standard
-Deluxe
-Executive
-Luxury.
-</summary>
-</member><member name="P:NETEdwardClorina.My.Resources.Resources.PkgPrices">
-	<summary>
-  Looks up a localized string similar to 7.50
-15.00
-35.00
-55.00
-.
-</summary>
-</member><member name="T:NETEdwardClorina.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
 </member><member name="M:NETEdwardClorina.frmService.checkText(System.String)">
 	<summary>
  Checks if the value in the textbox is numeric
@@ -411,6 +368,56 @@ Luxury.
 </member><member name="M:NETEdwardClorina.frmService.ClearToolStripMenuItem_Click(System.Object,System.EventArgs)">
 	<summary>
  Clear all Textboxs and labels
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmReport.frmReport_Load(System.Object,System.EventArgs)">
+	<summary>
+ Connect to our database, fill a dataset with our commissions and display it.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmStockMaintenance.bindData">
+	<summary>
+ Bind our various controls to the form's One Car dataSet
+ </summary>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmStockMaintenance.#ctor(System.String)">
+	<summary>
+ Parameterized constructor that accepts a new Stock No
+ </summary>
+	<param name="strStockNo">New Stock No</param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmStockMaintenance.#ctor(System.String,System.String,System.String)">
+	<summary>
+ Parameterized constructor used when an existing record is found.
+ </summary>
+	<param name="strStockNo">StockNo</param>
+	<param name="strColumnName">Column Name changed</param>
+	<param name="strValue">Column value changed</param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmStockMaintenance.frmStockMaintenance_Activated(System.Object,System.EventArgs)">
+	<summary>
+ Loads when our form is activated
+ connects to the database, determines if the record is new or existing
+ based on this, will populate our controls
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmStockMaintenance.txtShared_Leave(System.Object,System.EventArgs)">
+	<summary>
+ Shared textbox event to handle when the user tabs (leaves) a textbox
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETEdwardClorina.frmStockMaintenance.btnUpdate_Click(System.Object,System.EventArgs)">
+	<summary>
+ Used to update the UsedCars table in the VBAutoSales database
+ with the information currently displayed
  </summary>
 	<param name="sender"></param>
 	<param name="e"></param>

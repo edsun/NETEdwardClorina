@@ -16,3 +16,13 @@ C:\Users\edsun\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\BusinessTi
 C:\Users\edsun\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\BusinessTier\obj\Debug\BusinessTier.dll
 C:\Users\edsun\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\BusinessTier\obj\Debug\BusinessTier.xml
 C:\Users\edsun\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\BusinessTier\obj\Debug\BusinessTier.pdb
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\BusinessTier\bin\Debug\BusinessTier.dll
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\BusinessTier\bin\Debug\BusinessTier.pdb
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\BusinessTier\bin\Debug\BusinessTier.xml
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\BusinessTier\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\BusinessTier\obj\Debug\BusinessTier.Resources.resources
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\BusinessTier\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\BusinessTier\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\BusinessTier\obj\Debug\BusinessTier.dll
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\BusinessTier\obj\Debug\BusinessTier.xml
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\BusinessTier\obj\Debug\BusinessTier.pdb

@@ -16,6 +16,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusinessTier", "BusinessTie
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataTier", "DataTier\DataTier.vbproj", "{FAE8245D-760C-4E2E-8630-0126CDF7A221}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EdwardClorinaSetup", "EdwardClorinaSetup\EdwardClorinaSetup.vdproj", "{8863B1DB-5B49-42C5-A8D0-70664BB72182}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = NETEdwardClorina.vsmdi
@@ -69,6 +71,12 @@ Global
 		{FAE8245D-760C-4E2E-8630-0126CDF7A221}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{FAE8245D-760C-4E2E-8630-0126CDF7A221}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{FAE8245D-760C-4E2E-8630-0126CDF7A221}.Release|x86.ActiveCfg = Release|Any CPU
+		{8863B1DB-5B49-42C5-A8D0-70664BB72182}.Debug|Any CPU.ActiveCfg = Debug
+		{8863B1DB-5B49-42C5-A8D0-70664BB72182}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{8863B1DB-5B49-42C5-A8D0-70664BB72182}.Debug|x86.ActiveCfg = Debug
+		{8863B1DB-5B49-42C5-A8D0-70664BB72182}.Release|Any CPU.ActiveCfg = Release
+		{8863B1DB-5B49-42C5-A8D0-70664BB72182}.Release|Mixed Platforms.ActiveCfg = Release
+		{8863B1DB-5B49-42C5-A8D0-70664BB72182}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

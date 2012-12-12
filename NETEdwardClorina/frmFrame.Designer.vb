@@ -76,48 +76,48 @@ Partial Class frmFrame
         '
         Me.OpenToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EstimateToolStripMenuItem, Me.ServiceToolStripMenuItem, Me.CarWashToolStripMenuItem, Me.CommissionToolStripMenuItem, Me.ReportsToolStripMenuItem})
         Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
-        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
         Me.OpenToolStripMenuItem.Text = "&Open"
         '
         'EstimateToolStripMenuItem
         '
         Me.EstimateToolStripMenuItem.Name = "EstimateToolStripMenuItem"
-        Me.EstimateToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EstimateToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.EstimateToolStripMenuItem.Text = "&Estimate"
         '
         'ServiceToolStripMenuItem
         '
         Me.ServiceToolStripMenuItem.Name = "ServiceToolStripMenuItem"
-        Me.ServiceToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ServiceToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.ServiceToolStripMenuItem.Text = "&Service"
         '
         'CarWashToolStripMenuItem
         '
         Me.CarWashToolStripMenuItem.Name = "CarWashToolStripMenuItem"
-        Me.CarWashToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CarWashToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.CarWashToolStripMenuItem.Text = "&Car Wash"
         '
         'CommissionToolStripMenuItem
         '
         Me.CommissionToolStripMenuItem.Name = "CommissionToolStripMenuItem"
-        Me.CommissionToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CommissionToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.CommissionToolStripMenuItem.Text = "Co&mmission"
         '
         'ReportsToolStripMenuItem
         '
         Me.ReportsToolStripMenuItem.Name = "ReportsToolStripMenuItem"
-        Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.ReportsToolStripMenuItem.Text = "&Reports"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(149, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(100, 6)
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
         'WindowToolStripMenuItem
@@ -181,35 +181,35 @@ Partial Class frmFrame
         '
         Me.tssbEstimate.Image = Global.NETEdwardClorina.My.Resources.Resources.sales
         Me.tssbEstimate.Name = "tssbEstimate"
-        Me.tssbEstimate.Size = New System.Drawing.Size(141, 22)
+        Me.tssbEstimate.Size = New System.Drawing.Size(152, 22)
         Me.tssbEstimate.Text = "Estimate"
         '
         'tssbService
         '
         Me.tssbService.Image = Global.NETEdwardClorina.My.Resources.Resources.service
         Me.tssbService.Name = "tssbService"
-        Me.tssbService.Size = New System.Drawing.Size(141, 22)
+        Me.tssbService.Size = New System.Drawing.Size(152, 22)
         Me.tssbService.Text = "Service"
         '
         'tssbCarWash
         '
         Me.tssbCarWash.Image = Global.NETEdwardClorina.My.Resources.Resources.carwash
         Me.tssbCarWash.Name = "tssbCarWash"
-        Me.tssbCarWash.Size = New System.Drawing.Size(141, 22)
+        Me.tssbCarWash.Size = New System.Drawing.Size(152, 22)
         Me.tssbCarWash.Text = "Car Wash"
         '
         'tssbCommission
         '
         Me.tssbCommission.Image = Global.NETEdwardClorina.My.Resources.Resources.commission
         Me.tssbCommission.Name = "tssbCommission"
-        Me.tssbCommission.Size = New System.Drawing.Size(141, 22)
+        Me.tssbCommission.Size = New System.Drawing.Size(152, 22)
         Me.tssbCommission.Text = "Commission"
         '
         'tssbReports
         '
         Me.tssbReports.Image = Global.NETEdwardClorina.My.Resources.Resources.reports
         Me.tssbReports.Name = "tssbReports"
-        Me.tssbReports.Size = New System.Drawing.Size(141, 22)
+        Me.tssbReports.Size = New System.Drawing.Size(152, 22)
         Me.tssbReports.Text = "Reports"
         '
         'ToolStripSeparator1

@@ -54,3 +54,19 @@ C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwa
 C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmCommission.resources
 C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmVBAuto.resources
 C:\Users\eclorina\Dropbox\Public\Term3\.NET Programming\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmStockMaintenance.resources
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\bin\Debug\NETEdwardClorina.exe.config
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\bin\Debug\BusinessTier.dll
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\bin\Debug\DataTier.dll
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\bin\Debug\BusinessTier.pdb
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\bin\Debug\BusinessTier.xml
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\bin\Debug\DataTier.pdb
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\bin\Debug\DataTier.xml
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmAbout.resources
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmBase.resources
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmCarWash.resources
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmCommission.resources
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmReport.resources
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmService.resources
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmStockMaintenance.resources
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmSummary.resources
+C:\Users\eclorina\Documents\Classes\Term 3\Programming (.NET 1)\projects\NETEdwardClorina\NETEdwardClorina\obj\x86\Debug\NETEdwardClorina.frmVBAuto.resources

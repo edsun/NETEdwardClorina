@@ -6,7 +6,73 @@ EdwardClorinaTest
 </name>
 </assembly>
 <members>
-<member name="P:EdwardClorinaTest.frmEstimateTest.TestContext">
+<member name="P:EdwardClorinaTest.frmBaseTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:EdwardClorinaTest.frmBaseTest.sendMessageTest">
+	<summary>
+A test for sendMessage
+</summary>
+</member><member name="T:EdwardClorinaTest.frmBaseTest">
+	<summary>
+This is a test class for frmBaseTest and is intended
+to contain all frmBaseTest Unit Tests
+</summary>
+</member><member name="P:EdwardClorinaTest.frmSummaryTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:EdwardClorinaTest.frmSummaryTest.frmSummary_LoadTest">
+	<summary>
+A test for frmSummary_Load
+</summary>
+</member><member name="T:EdwardClorinaTest.frmSummaryTest">
+	<summary>
+This is a test class for frmSummaryTest and is intended
+to contain all frmSummaryTest Unit Tests
+</summary>
+</member><member name="P:EdwardClorinaTest.clsServiceTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:EdwardClorinaTest.clsServiceTest.mdecMaterialsTest">
+	<summary>
+A test for mdecMaterials
+</summary>
+</member><member name="M:EdwardClorinaTest.clsServiceTest.mdecPartsTest">
+	<summary>
+A test for mdecParts
+</summary>
+</member><member name="M:EdwardClorinaTest.clsServiceTest.mdecPriceTest">
+	<summary>
+A test for mdecPrice
+</summary>
+</member><member name="M:EdwardClorinaTest.clsServiceTest.clsServiceConstructorTest_Default">
+	<summary>
+A test for clsService Constructor checking for the default constructor.
+</summary>
+</member><member name="M:EdwardClorinaTest.clsServiceTest.clsServiceConstructorTest_Parameterized">
+	<summary>
+A test for clsService Constructor for the paramterized
+</summary>
+</member><member name="M:EdwardClorinaTest.clsServiceTest.calcAmountTest">
+	<summary>
+A test for calcAmount
+</summary>
+</member><member name="M:EdwardClorinaTest.clsServiceTest.averageContractTest">
+	<summary>
+A test for averageContract
+</summary>
+</member><member name="T:EdwardClorinaTest.clsServiceTest">
+	<summary>
+This is a test class for clsServiceTest and is intended
+to contain all clsServiceTest Unit Tests
+</summary>
+</member><member name="P:EdwardClorinaTest.frmEstimateTest.TestContext">
 	<summary>
 Gets or sets the test context which provides
 information about and functionality for the current test run.
@@ -229,72 +295,6 @@ A test for calculate to test for proper calculation when rate is maximum.
 	<summary>
 This is a test class for frmEstimateTest and is intended
 to contain all frmEstimateTest Unit Tests
-</summary>
-</member><member name="P:EdwardClorinaTest.frmBaseTest.TestContext">
-	<summary>
-Gets or sets the test context which provides
-information about and functionality for the current test run.
-</summary>
-</member><member name="M:EdwardClorinaTest.frmBaseTest.sendMessageTest">
-	<summary>
-A test for sendMessage
-</summary>
-</member><member name="T:EdwardClorinaTest.frmBaseTest">
-	<summary>
-This is a test class for frmBaseTest and is intended
-to contain all frmBaseTest Unit Tests
-</summary>
-</member><member name="P:EdwardClorinaTest.frmSummaryTest.TestContext">
-	<summary>
-Gets or sets the test context which provides
-information about and functionality for the current test run.
-</summary>
-</member><member name="M:EdwardClorinaTest.frmSummaryTest.frmSummary_LoadTest">
-	<summary>
-A test for frmSummary_Load
-</summary>
-</member><member name="T:EdwardClorinaTest.frmSummaryTest">
-	<summary>
-This is a test class for frmSummaryTest and is intended
-to contain all frmSummaryTest Unit Tests
-</summary>
-</member><member name="P:EdwardClorinaTest.clsServiceTest.TestContext">
-	<summary>
-Gets or sets the test context which provides
-information about and functionality for the current test run.
-</summary>
-</member><member name="M:EdwardClorinaTest.clsServiceTest.mdecMaterialsTest">
-	<summary>
-A test for mdecMaterials
-</summary>
-</member><member name="M:EdwardClorinaTest.clsServiceTest.mdecPartsTest">
-	<summary>
-A test for mdecParts
-</summary>
-</member><member name="M:EdwardClorinaTest.clsServiceTest.mdecPriceTest">
-	<summary>
-A test for mdecPrice
-</summary>
-</member><member name="M:EdwardClorinaTest.clsServiceTest.clsServiceConstructorTest_Default">
-	<summary>
-A test for clsService Constructor checking for the default constructor.
-</summary>
-</member><member name="M:EdwardClorinaTest.clsServiceTest.clsServiceConstructorTest_Parameterized">
-	<summary>
-A test for clsService Constructor for the paramterized
-</summary>
-</member><member name="M:EdwardClorinaTest.clsServiceTest.calcAmountTest">
-	<summary>
-A test for calcAmount
-</summary>
-</member><member name="M:EdwardClorinaTest.clsServiceTest.averageContractTest">
-	<summary>
-A test for averageContract
-</summary>
-</member><member name="T:EdwardClorinaTest.clsServiceTest">
-	<summary>
-This is a test class for clsServiceTest and is intended
-to contain all clsServiceTest Unit Tests
 </summary>
 </member><member name="P:EdwardClorinaTest.clsChargesTest.TestContext">
 	<summary>
